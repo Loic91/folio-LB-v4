@@ -51,7 +51,6 @@ body {
 
 
 
-
 /* OVERLAY - IMAGES TRANSITION *************************************************************************************************************************************************************************************************************************************************************************************************** */
 .overlay{
     position: absolute;
@@ -641,7 +640,7 @@ body {
         
         margin-top: 300px;
         padding-top: 10px;
-        font-style: italic;
+        /* font-style: italic; */
         text-align: right;
     }
     #paris__1{
@@ -659,11 +658,18 @@ body {
         z-index: 350;
     
         margin-top: 350px;
-        font-style: italic;
+        /* font-style: italic; */
         padding-top: 10px;
         text-align: right;
     }
 }
+
+@media screen and (min-width: 1600px){
+    .text__dev,.text__front, .text__base, .text__paris{
+        text-align: center;
+    }
+}
+
 
 
 
