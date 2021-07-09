@@ -8,17 +8,24 @@
     z-index: 999999;
     transform-origin: 50%;
     transform: translate3d(-50%, -50%, 0);
-  }
-  .cursor > div {
+}
+.cursor > div {
     mix-blend-mode: exclusion;
-  }
-  .cursor .cursor-follow {
+}
+.cursor .cursor-follow {
     transform-origin: 50%;
-  }
-  .cursor svg {
+}
+.cursor svg {
     display: block;
     fill: none;
     stroke: #000000;
     stroke-width: 1;
     stroke-miterlimit: miter;
-  }
+}
+
+
+@media screen and (max-width: 1000px){
+    .cursor{
+        display: none;
+    }
+}
