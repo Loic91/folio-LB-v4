@@ -532,6 +532,13 @@ TweenMax.from(".projects", 2.6, {
     delay: 3.9,
 });
 
+TweenMax.from("#bodymovin", 2.6, {
+    opacity: 0,
+    y: '80%',
+    ease: Expo.easeInOut,
+    delay: 4.3,
+});
+
 // TweenMax.from(".container-button", 2.6, {
 //     opacity: 0,
 //     y: '40%',
