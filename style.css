@@ -866,20 +866,20 @@ body {
 .link--kukuri {
     text-transform: uppercase;
     overflow: hidden;
-    color: #000000;
+    /* color: #000000; */
 
     padding-top: 3px;
 }
-.link--kukuri:hover {
+/* .link--kukuri:hover {
     color: #000000;
-  }
+  } */
   .link--kukuri::after {
     content: "";
     position: absolute;
-    height: 16px;
+    height: 6px;
     width: 100%;
     top: 50%;
-    margin-top: -8px;
+    margin-top: -3px;
     right: 0;
     background: rgb(240, 85, 80);
     transform: translate3d(-100%, 0, 0);
