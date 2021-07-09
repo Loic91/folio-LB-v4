@@ -408,7 +408,7 @@ body {
     font-family: 'Mukta', sans-serif; 
     font-weight: lighter;
     font-size: 70em; 
-    color: rgb(240, 85, 80)
+    color: rgb(240, 85, 80);
     
 }
 .copyright{
@@ -881,7 +881,7 @@ body {
     top: 50%;
     margin-top: -8px;
     right: 0;
-    background: skyblue;
+    background: rgb(240, 85, 80);
     transform: translate3d(-100%, 0, 0);
     transition: transform 0.4s;
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
