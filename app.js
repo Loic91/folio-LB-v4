@@ -562,9 +562,9 @@ TweenMax.from("#bodymovin", 2.6, {
 
 TweenMax.from("#dev__1", 2.6, {
     opacity: 0,
-    y: '40%',
+    y: '80%',
     ease: Expo.easeInOut,
-    delay: 5.9,
+    delay: 6.2,
 });
 // ***Disparition du mot
 // TweenMax.to("#dev__1", 2.6, {
@@ -577,9 +577,9 @@ TweenMax.from("#dev__1", 2.6, {
 
 TweenMax.from("#front__1", 2.6, {
     opacity: 0,
-    y: '40%',
+    y: '80%',
     ease: Expo.easeInOut,
-    delay: 6.3,
+    delay: 6.6,
 });
 // ***Disparition du mot
 // TweenMax.to("#front__1", 2.6, {
@@ -591,81 +591,19 @@ TweenMax.from("#front__1", 2.6, {
 
 TweenMax.from("#base__1", 2.6, {
     opacity: 0,
-    y: '40%',
+    y: '80%',
     ease: Expo.easeInOut,
-    delay: 6.8,
+    delay: 7,
 });
 TweenMax.from("#paris__1", 2.6, {
     opacity: 0,
-    y: '40%',
+    y: '80%',
     ease: Expo.easeInOut,
-    delay: 7.2,
+    delay: 7.4,
 });
 // ******
 
-TweenMax.from("#dev__1__mobile", 2.6, {
-    opacity: 0,
-    y: '40%',
-    ease: Expo.easeInOut,
-    delay: 2.8,
-});
-TweenMax.from("#dev__1__mobile2", 2.6, {
-    opacity: 0,
-    y: '40%',
-    ease: Expo.easeInOut,
-    delay: 3.6,
-});
-TweenMax.from("#dev__1__mobile3", 2.6, {
-    opacity: 0,
-    y: '40%',
-    ease: Expo.easeInOut,
-    delay: 4,
-});
-TweenMax.from("#front__1__mobile1", 2.6, {
-    opacity: 0,
-    y: '40%',
-    ease: Expo.easeInOut,
-    delay: 4.4,
-});
-TweenMax.from("#front__1__mobile2", 2.6, {
-    opacity: 0,
-    y: '40%',
-    ease: Expo.easeInOut,
-    delay: 4.8,
-});
 
-// ***Disparition du mot
-TweenMax.to("#dev__1__mobile", 2.6, {
-    // opacity: 0,
-    y: '100%',
-    ease: Expo.easeInOut,
-    delay: 6.6,
-});
-TweenMax.to("#dev__1__mobile2", 2.6, {
-    // opacity: 0,
-    y: '100%',
-    ease: Expo.easeInOut,
-    delay: 7.2,
-});
-TweenMax.to("#dev__1__mobile3", 2.6, {
-    // opacity: 0,
-    y: '100%',
-    ease: Expo.easeInOut,
-    delay: 7.8,
-});
-TweenMax.to("#front__1__mobile1", 2.6, {
-    // opacity: 0,
-    y: '100%',
-    ease: Expo.easeInOut,
-    delay: 8.4,
-});
-TweenMax.to("#front__1__mobile2", 2.6, {
-    // opacity: 0,
-    y: '100%',
-    ease: Expo.easeInOut,
-    delay: 8.8,
-});
-// ******
 
 
 
