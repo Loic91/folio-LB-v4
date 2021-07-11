@@ -422,11 +422,18 @@ body {
     height: 118px;
     z-index: 250;
 
-    margin-top: -150px;
-    margin-left: -500px;
+    margin-top: -500px;
+    margin-left: -650px;
     text-align: left;
 }
 
+@media screen and (max-width: 800px){
+    #cop{
+        font-size: 60em;
+        margin-left: 300px;
+        margin-top: 70px;
+    }
+}
 @media screen and (max-width: 600px){
     #cop{
         font-size: 50em;
