@@ -312,6 +312,8 @@ body {
         display: none;
     }
     .display_blocks__xl{
+        display: flex;
+        margin-top: 0px;
         z-index: 200;
     }
     .blocks__xl {
@@ -324,7 +326,7 @@ body {
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (max-width: 899px) and (min-width: 600px){
     .display_blocks__mobile{
         display: none;
     }
