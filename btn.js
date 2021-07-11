@@ -1,14 +1,14 @@
 // !!!!! FAIRE BOUGER UN CONTAINER AU MOUVEMENT DE LA SOURIS
 
-let button = document.getElementsByClassName('button');
+let button = document.getElementsByClassName('parralax_container');
 
 //quand on bouge la souris on veut qu'il y est une fonction qui parte 
 document.onmousemove = function() {
 
     //"client" suivit de X ou Y correspond à la position de la souris de l'utilisateur 
     // 30 correspond à la puissance du mouvement
-    let x = event.clientX * 10 / window.innerWidth + "%";
-    let y = event.clientY * 40 / window.innerHeight + "%";
+    let x = event.clientX * 2 / window.innerWidth + "%";
+    let y = event.clientY * 2 / window.innerHeight + "%";
 
     for (let i = 0; i < 1; i++) {
         button[i].style.left = x;

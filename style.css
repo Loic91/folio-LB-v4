@@ -435,12 +435,18 @@ body {
         margin-left: 300px;
         margin-top: 270px;
     }
+    .parralax_container{
+        display: none;
+    }
 }
 @media screen and (max-width: 600px){
     #cop{
         font-size: 40em;
         margin-left: 550px;
         margin-top: 450px;
+    }
+    .parralax_container{
+        display: none;
     }
 }
 

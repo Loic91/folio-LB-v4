@@ -18,7 +18,7 @@
 .cursor svg {
     display: block;
     fill: none;
-    stroke: #000000;
+    stroke: rgb(240, 85, 80);
     stroke-width: 1;
     stroke-miterlimit: miter;
 }
