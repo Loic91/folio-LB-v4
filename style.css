@@ -317,18 +317,18 @@ body {
     .blocks__xl {
         font-family: 'Rubik', sans-serif;
         display: flex;
-        font-size: 4em;
+        font-size: 7em;
         color: #3c46521c;
         margin: 10px;
         z-index: 99;
     }
 }
 
-@media screen and (min-width: 601px){
+@media screen and (max-width: 899px){
     .display_blocks__mobile{
         display: none;
     }
-    .display_blocks{
+    .display_blocks__xl{
         display: none;
     }
     .display_blocks__tab{
@@ -343,7 +343,7 @@ body {
         font-family: 'Rubik', sans-serif;
         display: flex;
         font-size: 3em;
-        color: #161a1f;
+        color: #3c46521c;
         margin: 10px;
     }
     .block{

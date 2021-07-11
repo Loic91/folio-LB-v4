@@ -65,7 +65,7 @@ gsap.to('.block_2__xl, .block_2__mobile, .block_2__tab', 2.5, {
 })
 
 TweenMax.to(".block_2__tab", 1.9, {
-    x: "-300",
+    x: "-150",
     y: "250",
     scale: "0.9",
     ease: Expo.easeInOut,
@@ -125,8 +125,8 @@ gsap.to('.block_4__xl, .block_4__mobile, .block_4__tab', 2.5, {
 })
 
 TweenMax.to(".block_4__tab", 1.9, {
-    x: "-300",
-    y: "120",
+    x: "-200",
+    y: "80",
     scale: "0.7",
     ease: Expo.easeInOut,
     delay: 0.9,
