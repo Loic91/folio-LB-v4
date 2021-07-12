@@ -432,9 +432,10 @@ body {
 
 @media screen and (max-width: 800px){
     #cop{
+        font-family: 'Inter', sans-serif;
         font-size: 60em;
         margin-left: 300px;
-        margin-top: 270px;
+        margin-top: 200px;
     }
     /* .parralax_container{
         display: none;
@@ -442,9 +443,10 @@ body {
 }
 @media screen and (max-width: 600px){
     #cop{
+        font-family: 'Inter', sans-serif;
         font-size: 40em;
         margin-left: 450px;
-        margin-top: 400px;
+        margin-top: 300px;
     }
     /* .parralax_container{
         display: none;
@@ -610,6 +612,7 @@ body {
     margin-top: 460px;
     text-align: right;
 }
+
 @media screen and (max-width: 800px){
     #dev__1{
         font-family: "GRIFTER";
