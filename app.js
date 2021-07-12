@@ -11,7 +11,7 @@ TweenMax.to(".page", 2.4, {
 
 TweenMax.from("#cop", 2.4, {
     // delay: .5,
-    delay: 6,
+    delay: 7.8,
     opacity: 0,
     duration:0.5,
     // top: "-100%",

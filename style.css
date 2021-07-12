@@ -3,8 +3,8 @@
     src: url('./fonts/Migha/Migha_Variable/Migha_Variable.ttf') format('truetype');
 } */
 @font-face{
-    font-family: "Aelyn"; 
-    src: url('./fonts/Aelyn/PS-Aelyn-Regular.otf') format('opentype');
+    font-family: "Obrazec"; 
+    src: url('./fonts/Obrazec/Obrazec-2.ttf') format('truetype');
 }
 @font-face{
     font-family: "ApexMk3"; 
@@ -410,10 +410,11 @@ body {
 
 
 #cop{
+    font-family: 'Inter', sans-serif;
     /* font-family: "GRIFTER"; */
-    font-family: 'Mukta', sans-serif; 
-    font-weight: lighter;
-    font-size: 70em; 
+    /* font-family: 'Mukta', sans-serif;  */
+    font-weight: 200;
+    font-size: 60em; 
     color: rgb(240, 85, 80);
     
 }
@@ -424,8 +425,8 @@ body {
     height: 118px;
     z-index: 250;
 
-    margin-top: -500px;
-    margin-left: -650px;
+    margin-top: -200px;
+    margin-left: -550px;
     text-align: left;
 }
 
@@ -442,8 +443,8 @@ body {
 @media screen and (max-width: 600px){
     #cop{
         font-size: 40em;
-        margin-left: 550px;
-        margin-top: 450px;
+        margin-left: 450px;
+        margin-top: 400px;
     }
     /* .parralax_container{
         display: none;
@@ -958,12 +959,12 @@ body {
   .link--kukuri::after {
     content: "";
     position: absolute;
-    height: 3px;
+    height: 2px;
     width: 100%;
     top: 50%;
-    margin-top: -0.5px;
+    margin-top: -0.3px;
     right: 0;
-    background: rgb(240, 85, 80);
+    background: rgb(97, 59, 59);
     transform: translate3d(-100%, 0, 0);
     transition: transform 0.4s;
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
