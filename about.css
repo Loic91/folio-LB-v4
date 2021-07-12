@@ -11,22 +11,28 @@ body {
 	overflow: hidden;
 }
 
-.container {
+.container__about {
 	width: 100%;
 	height: 100vh;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* background: whitesmoke; */
-    background-image: url('img/Burst.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
+	/* background: rgb(224, 223, 223);
+    z-index: -50; */
 }
 
-/* *************************************************************************************************** */
 
+
+
+
+
+
+
+
+
+
+
+ /* NOM TRANSITION *************************************************************************************************************************************************************************************************************************************************************************************************** */
+.display_blocks__about__mobile, .display_blocks__about__tab{
+    display: none;
+}
 .block_5__about, .block_6__about, .block_7__about, .block_8__about, .block_9__about, .block_10__about, .block_11__about{
     font-style: italic;
     color: #ca2929fa;
@@ -34,7 +40,7 @@ body {
 .display_blocks__about{
     display: flex;
     margin-top: 0px;
-    z-index: 200;
+    z-index: 350;
 }
 .blocks__about {
     font-family: 'Rubik', sans-serif;
@@ -42,14 +48,73 @@ body {
     font-size: 2em;
     color: #fc8282a8;
     margin: 10px;
-    z-index: 99;
+    z-index: 350;
 
     margin-left: auto;
     margin-right: auto;
 }
 
-/* *************************************************************************************************** */
+/* TABLETTE ********************************************* */
+@media screen and (max-width: 899px) and (min-width: 601px){
+    .display_blocks__about, .display_blocks__about__mobile{
+        display: none;
+    }
+    .block_5__about__tab, .block_6__about__tab, .block_7__about__tab, .block_8__about__tab, .block_9__about__tab, .block_10__about__tab, .block_11__about__tab{
+        color: #ca2929fa;
+    }
+    .display_blocks__about__tab{
+        display: flex;
+        margin-top: 0px;
+        z-index: 200;
+    }
+    .blocks__about__tab {
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        font-size: 2em;
+        color: #fc8282a8;
+        margin: 10px;
+        z-index: 99;
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+ /* MOBILE *********************************************** */
+@media screen and (max-width: 600px){
+    .display_blocks__about, .display_blocks__about__tab{
+        display: none;
+    }
+    .block_5__about__mobile, .block_6__about__mobile, .block_7__about__mobile, .block_8__about__mobile, .block_9__about__mobile, .block_10__about__mobile, .block_11__about__mobile{
+        color: #ca2929fa;
+    }
+    .display_blocks__about__mobile{
+        display: flex;
+        margin-top: 0px;
+        z-index: 200;
+    }
+    .blocks__about__mobile {
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        font-size: 2em;
+        color: #fc8282a8;
+        margin: 10px;
+        z-index: 99;
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
+
+
+
+
+
+
+
+
+
+ /* IMAGE *************************************************************************************************************************************************************************************************************************************************************************************************** */
 .image {
     background-image: url("./img/md-1.jpg");
     background-repeat: no-repeat;
@@ -65,8 +130,34 @@ body {
     z-index: -1;
 } 
 .box-color {
-    background-color: #ffffff;
+    background-color: rgb(224, 223, 223);
     overflow: hidden;
     width: 400px;
     height: 500px;
+}
+
+@media screen and (max-width: 899px) and (min-width: 601px){
+    .image{
+        width: 300px;
+        margin-left: auto;
+        margin-right: 40px;
+        margin-top: 500px;
+    }
+    .box-color{
+        width: 300px;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .image{
+        width: 200px;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 400px;
+    }
+    .box-color{
+        width: 200px;
+        height: 270px;
+    }
 }
