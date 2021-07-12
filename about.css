@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background: whitesmoke; */
+    background-image: url('img/Burst.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* *************************************************************************************************** */
+
+.block_5__about, .block_6__about, .block_7__about, .block_8__about, .block_9__about, .block_10__about, .block_11__about{
+    font-style: italic;
+    color: #ca2929fa;
+}
+.display_blocks__about{
+    display: flex;
+    margin-top: 0px;
+    z-index: 200;
+}
+.blocks__about {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    font-size: 2em;
+    color: #fc8282a8;
+    margin: 10px;
+    z-index: 99;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* *************************************************************************************************** */
+
+.image {
+    background-image: url("./img/md-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 150px;
+    overflow: hidden;
+    position: relative;
+
+    width: 400px;
+    height:100%;
+    z-index: -1;
+} 
+.box-color {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+}
