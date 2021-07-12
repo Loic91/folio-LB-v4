@@ -130,7 +130,7 @@ body {
     z-index: -1;
 } 
 .box-color {
-    background-color: rgb(224, 223, 223);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 400px;
     height: 500px;
@@ -141,7 +141,7 @@ body {
         width: 300px;
         margin-left: auto;
         margin-right: 40px;
-        margin-top: 500px;
+        margin-top: 175px;
     }
     .box-color{
         width: 300px;
@@ -154,10 +154,49 @@ body {
         width: 200px;
         margin-left: auto;
         margin-right: 20px;
-        margin-top: 400px;
+        margin-top: 140px;
     }
     .box-color{
         width: 200px;
         height: 270px;
+    }
+}
+
+
+
+
+
+
+
+
+ /* TEXTE *************************************************************************************************************************************************************************************************************************************************************************************************** */
+
+@media screen and (min-width: 900px){
+    .flex__about{
+        display: flex;
+    }
+}
+.text__bio{
+    width: 700px;
+    margin-left: auto;
+    margin-top: 250px;
+    font-size: 1.7em;
+}
+
+@media screen and (max-width: 899px) and (min-width: 601px){
+    .text__bio{
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 150px;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .text__bio{
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 1.1em;
     }
 }
