@@ -16,7 +16,7 @@ TweenMax.to(".block_1__about__tab", 1.9, {
 });
 TweenMax.to(".block_1__about__mobile", 1.9, {
     x: "110",
-    y: "380",
+    y: "280",
     scale: "2.2",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -39,7 +39,7 @@ TweenMax.to(".block_2__about__tab", 1.9, {
 });
 TweenMax.to(".block_2__about__mobile", 1.9, {
     x: "210",
-    y: "560",
+    y: "475",
     scale: "1.1",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -62,7 +62,7 @@ TweenMax.to(".block_3__about__tab", 1.9, {
 });
 TweenMax.to(".block_3__about__mobile", 1.9, {
     x: "210",
-    y: "380",
+    y: "280",
     scale: "1.3",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -85,7 +85,7 @@ TweenMax.to(".block_4__about__tab", 1.9, {
 });
 TweenMax.to(".block_4__about__mobile", 1.9, {
     x: "60",
-    y: "550",
+    y: "450",
     scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -108,7 +108,7 @@ TweenMax.to(".block_5__about__tab", 1.9, {
 });
 TweenMax.to(".block_5__about__mobile", 1.9, {
     x: "100",
-    y: "570",
+    y: "480",
     scale: "2.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -131,7 +131,7 @@ TweenMax.to(".block_6__about__tab", 1.9, {
 });
 TweenMax.to(".block_6__about__mobile", 1.9, {
     x: "65",
-    y: "370",
+    y: "270",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -154,7 +154,7 @@ TweenMax.to(".block_7__about__tab", 1.9, {
 });
 TweenMax.to(".block_7__about__mobile", 1.9, {
     x: "20",
-    y: "470",
+    y: "370",
     scale: "0.7",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -177,7 +177,7 @@ TweenMax.to(".block_8__about__tab", 1.9, {
 });
 TweenMax.to(".block_8__about__mobile", 1.9, {
     x: "-30",
-    y: "500",
+    y: "400",
     scale: "1.7",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -199,9 +199,9 @@ TweenMax.to(".block_9__about__tab", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_9__about__mobile", 1.9, {
-    x: "120",
-    y: "450",
-    scale: "1.7",
+    x: "110",
+    y: "350",
+    scale: "1.5",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
@@ -246,7 +246,7 @@ TweenMax.to(".block_11__about__tab", 1.9, {
 });
 TweenMax.to(".block_11__about__mobile", 1.9, {
     x: "50",
-    y: "500",
+    y: "430",
     scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
