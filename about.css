@@ -137,7 +137,7 @@ body {
     }
     .display_blocks__about__mobile{
         display: flex;
-        margin-top: -60px;
+        margin-top: -80px;
         z-index: 200;
     }
     .blocks__about__mobile {
@@ -202,7 +202,7 @@ body {
         width: 150px;
         margin-left: auto;
         margin-right: 20px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .box-color{
         width: 150px;
@@ -244,7 +244,7 @@ body {
     .text__bio{
         width: 300px;
         margin-left: 20px;
-        margin-top: 30px;
+        margin-top: 70px;
         font-size: 1.1em;
     }
 }
