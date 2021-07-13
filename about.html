@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="cursor.css">
     <link rel="stylesheet" href="about.css">
     <title>About</title>
 </head>
 <body>
+
+
+    <div class="cursor">
+		<div class="cursor-follow">
+			<div class="curosr-inner">
+				<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="25" cy="25" r="22"/>
+				</svg>
+			</div>
+		</div>
+	</div>
+
+
 
     <div id="parallax-container" class="container__about">
 
@@ -86,7 +100,7 @@
         <!-- FOOTER *************************************************************************************************************************************************************************************************************************************************************************************************** -->
         <div class="footer">
             <div class="switch">
-                <a data-letters="À PROPOS" class="link link--kukuri" href="about.html">À PROPOS</a>
+                <a data-letters="ACCUEIL" class="link link--kukuri" href="index.html">ACCUEIL</a>
                 <!-- <a class="link link--surinami" href="#"><span data-letters-l="À PR" data-letters-r="OPOS">À PROPOS</span></a> -->
             </div>
 
@@ -112,6 +126,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.7/lottie.min.js"></script>
+
+    <script src="cursor.js"></script>
+    <script src="bm.js"></script>
     <script src="parallaxHover.js"></script>
     <script src="about.js"></script>
 </body>
