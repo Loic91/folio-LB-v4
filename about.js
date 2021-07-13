@@ -25,6 +25,13 @@ TweenMax.to(".block_1__about", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_1__about__1024", 1.9, {
+    x: "70",
+    y: "140",
+    scale: "6.8",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_1__about__tab", 1.9, {
     x: "200",
     y: "520",
@@ -43,6 +50,13 @@ TweenMax.to(".block_1__about__mobile", 1.9, {
 
 TweenMax.to(".block_2__about", 1.9, {
     x: "150",
+    y: "410",
+    scale: "1.8",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_2__about__1024", 1.9, {
+    x: "420",
     y: "410",
     scale: "1.8",
     ease: Expo.easeInOut,
@@ -71,6 +85,13 @@ TweenMax.to(".block_3__about", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_3__about__1024", 1.9, {
+    x: "50",
+    y: "300",
+    scale: "1.6",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_3__about__tab", 1.9, {
     x: "120",
     y: "630",
@@ -94,6 +115,13 @@ TweenMax.to(".block_4__about", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_4__about__1024", 1.9, {
+    x: "150",
+    y: "650",
+    scale: "2.4",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_4__about__tab", 1.9, {
     x: "200",
     y: "900",
@@ -113,6 +141,13 @@ TweenMax.to(".block_4__about__mobile", 1.9, {
 TweenMax.to(".block_5__about", 1.9, {
     x: "430",
     y: "650",
+    scale: "4.3",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_5__about__1024", 1.9, {
+    x: "330",
+    y: "620",
     scale: "4.3",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -140,6 +175,13 @@ TweenMax.to(".block_6__about", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_6__about__1024", 1.9, {
+    x: "200",
+    y: "120",
+    scale: "2.8",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_6__about__tab", 1.9, {
     x: "250",
     y: "550",
@@ -159,6 +201,13 @@ TweenMax.to(".block_6__about__mobile", 1.9, {
 TweenMax.to(".block_7__about", 1.9, {
     x: "480",
     y: "420",
+    scale: "2",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_7__about__1024", 1.9, {
+    x: "320",
+    y: "320",
     scale: "2",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -186,6 +235,13 @@ TweenMax.to(".block_8__about", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_8__about__1024", 1.9, {
+    x: "340",
+    y: "200",
+    scale: "3.1",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_8__about__tab", 1.9, {
     x: "320",
     y: "590",
@@ -206,6 +262,13 @@ TweenMax.to(".block_9__about", 1.9, {
     x: "120",
     y: "450",
     scale: "1.5",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_9__about__1024", 1.9, {
+    x: "-80",
+    y: "400",
+    scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
 });
@@ -232,6 +295,13 @@ TweenMax.to(".block_10__about", 1.9, {
     ease: Expo.easeInOut,
     delay: 0.9,
 });
+TweenMax.to(".block_10__about__1024", 1.9, {
+    x: "-100",
+    y: "550",
+    scale: "3.5",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
 TweenMax.to(".block_10__about__tab", 1.9, {
     x: "-30",
     y: "870",
@@ -251,6 +321,13 @@ TweenMax.to(".block_10__about__mobile", 1.9, {
 TweenMax.to(".block_11__about", 1.9, {
     x: "400",
     y: "150",
+    scale: "0.9",
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.to(".block_11__about__1024", 1.9, {
+    x: "-20",
+    y: "170",
     scale: "0.9",
     ease: Expo.easeInOut,
     delay: 0.9,
