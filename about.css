@@ -50,7 +50,11 @@ body {
     color: #000000;
 	text-decoration: none;
 }
-
+@media screen and (min-width: 900px){
+    .navbar{
+        margin-top: 50px;
+    }
+}
 @media screen and (max-width: 899px) and (min-width: 601px){
     .navbar{
         margin-top: 50px;
@@ -90,6 +94,13 @@ body {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 900px){
+    svg{
+        width: 80px;
+        margin: 10px;
+        margin-top: -140px;
+    }
+}
 @media screen and (max-width: 899px) and (min-width: 601px){
     svg{
         width: 80px;
