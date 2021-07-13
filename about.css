@@ -32,6 +32,26 @@ body {
 
 
 
+/* NAVBAR *************************************************************************************************************************************************************************************************************************************************************************************************** */
+.navbar {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	padding: 0 40px;
+    margin-top: -50px;
+	display: flex;
+	justify-content: space-between;
+	font-family: Arial, Helvetica, sans-serif !important;
+	text-transform: uppercase;
+	color: #000000;
+    z-index: 350;
+}
+
+.menu_item a{
+    color: #000000;
+	text-decoration: none;
+}
+
 /* CERCLE *************************************************************************************************************************************************************************************************************************************************************************************************** */
 #text,
 #letter,
@@ -62,8 +82,8 @@ body {
     svg{
         width: 50px;
         margin: 10px;
-        margin-top: -110px;
-        margin-bottom: -150px;
+        margin-top: -140px;
+        /* margin-bottom: 150px; */
     }
 }
 
@@ -137,7 +157,7 @@ body {
     }
     .display_blocks__about__mobile{
         display: flex;
-        margin-top: -80px;
+        margin-top: 80px;
         z-index: 200;
     }
     .blocks__about__mobile {
@@ -244,7 +264,7 @@ body {
     .text__bio{
         width: 300px;
         margin-left: 20px;
-        margin-top: 70px;
+        margin-top: -30px;
         font-size: 1.1em;
     }
 }
@@ -258,15 +278,13 @@ body {
 
 /* FOOTER **************************************************************************************************************************************************************************************** */
 
-.footer{
+/* .footer{
     font-family: 'Mukta', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
     color: rgb(0, 0, 0);
     display: flex;
     z-index: 350;
 }
 .footer .switch{
-    /* font-family: "GRIFTER"; */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -293,11 +311,11 @@ body {
         width: 10%;
         margin-bottom: 25px;
     }
-}
+} */
 
 
 /* BOUTON ******************************************************************************************************************************************************************************************************* */
-.link {
+/* .link {
     outline: none;
     text-decoration: none;
     position: relative;
@@ -309,13 +327,8 @@ body {
 .link--kukuri {
     text-transform: uppercase;
     overflow: hidden;
-    /* color: #000000; */
-
     padding-top: 3px;
 }
-/* .link--kukuri:hover {
-    color: #000000;
-  } */
   .link--kukuri::after {
     content: "";
     position: absolute;
@@ -344,4 +357,4 @@ body {
   }
   .link--kukuri:hover::before {
     width: 100%;
-  }
+  } */
