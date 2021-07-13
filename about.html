@@ -26,6 +26,29 @@
 
     <div id="parallax-container" class="container__about">
 
+
+
+        <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 136">
+            <defs>
+              <path ref="circlePath" id="circlePath" d="M7,69a60,60 0 1,0 120,0a60,60 0 1,0 -120,0"></path>
+            </defs>
+            <g>
+              <text x="50%" y="50%" class="button-letter-center" id="letter">0.1</text>
+        
+              <text ref="textCurved" id="textCurved" fill="#000">
+                <textPath side="right" ref="pathTextCurved" id="pathTextCurved" xlink:href="#circlePath">
+                  <tspan class="button-curved-en">• LOIC BRIJAWI</tspan>
+                  <tspan class="button-curved-jpn">• 2021</tspan>
+                </textPath>
+              </text>
+        
+              <circle id="circle" ref="circle" cx="67" cy="69" r="60" fill="transparent"></circle>
+            </g>
+        </svg>
+
+
+
+
         <div class="display_blocks__about parallax">
             <div class="blocks__about parallax" data-speed="-10">
                 <div class="block_1__about block">L</div>
@@ -129,6 +152,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.7/lottie.min.js"></script>
 
     <script src="cursor.js"></script>
+    <script src="aboutCircle.js"></script>
     <script src="bm.js"></script>
     <script src="parallaxHover.js"></script>
     <script src="about.js"></script>

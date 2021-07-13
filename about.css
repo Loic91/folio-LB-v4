@@ -1,3 +1,10 @@
+@font-face{
+    font-family: "GRIFTER"; 
+    src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
+}
+
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -25,11 +32,52 @@ body {
 
 
 
+/* CERCLE *************************************************************************************************************************************************************************************************************************************************************************************************** */
+#text,
+#letter,
+#pathTextCurved {
+  pointer-events: none;
+}
+
+#letter {
+  text-anchor: middle;
+  alignment-baseline: central;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+#letter,
+#textCurved {
+    fill: #fd0000;
+    font-family: "GRIFTER";
+}
+
+#textCurved {
+    
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+    svg{
+        width: 50px;
+        margin: 10px;
+        margin-top: -110px;
+        margin-bottom: -120px;
+    }
+}
 
 
 
 
- /* NOM TRANSITION *************************************************************************************************************************************************************************************************************************************************************************************************** */
+
+
+
+
+
+
+
+/* NOM TRANSITION *************************************************************************************************************************************************************************************************************************************************************************************************** */
 .display_blocks__about__mobile, .display_blocks__about__tab{
     display: none;
 }
@@ -89,7 +137,7 @@ body {
     }
     .display_blocks__about__mobile{
         display: flex;
-        margin-top: -50px;
+        margin-top: -60px;
         z-index: 200;
     }
     .blocks__about__mobile {
