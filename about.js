@@ -131,7 +131,7 @@ TweenMax.to(".block_6__about__tab", 1.9, {
 });
 TweenMax.to(".block_6__about__mobile", 1.9, {
     x: "65",
-    y: "270",
+    y: "300",
     scale: "1.6",
     ease: Expo.easeInOut,
     delay: 0.9,
