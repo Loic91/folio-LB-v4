@@ -1,7 +1,7 @@
 // ANIMATION NAME *********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 
 TweenMax.to(".block_1__about", 1.9, {
-    x: "250",
+    x: "150",
     y: "160",
     scale: "6.8",
     ease: Expo.easeInOut,
@@ -24,8 +24,8 @@ TweenMax.to(".block_1__about__mobile", 1.9, {
 // **********************************
 
 TweenMax.to(".block_2__about", 1.9, {
-    x: "650",
-    y: "210",
+    x: "150",
+    y: "410",
     scale: "1.8",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -47,7 +47,7 @@ TweenMax.to(".block_2__about__mobile", 1.9, {
 // ***********************************
 
 TweenMax.to(".block_3__about", 1.9, {
-    x: "200",
+    x: "500",
     y: "300",
     scale: "1.6",
     ease: Expo.easeInOut,
@@ -70,7 +70,7 @@ TweenMax.to(".block_3__about__mobile", 1.9, {
 // *************************************
 
 TweenMax.to(".block_4__about", 1.9, {
-    x: "650",
+    x: "520",
     y: "520",
     scale: "2.8",
     ease: Expo.easeInOut,
@@ -116,8 +116,8 @@ TweenMax.to(".block_5__about__mobile", 1.9, {
 // ***************************************
 
 TweenMax.to(".block_6__about", 1.9, {
-    x: "400",
-    y: "150",
+    x: "200",
+    y: "120",
     scale: "2.4",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -139,7 +139,7 @@ TweenMax.to(".block_6__about__mobile", 1.9, {
 // ****************************************
 
 TweenMax.to(".block_7__about", 1.9, {
-    x: "520",
+    x: "480",
     y: "420",
     scale: "2",
     ease: Expo.easeInOut,
@@ -162,8 +162,8 @@ TweenMax.to(".block_7__about__mobile", 1.9, {
 // ****************************************
 
 TweenMax.to(".block_8__about", 1.9, {
-    x: "270",
-    y: "220",
+    x: "320",
+    y: "200",
     scale: "1.8",
     ease: Expo.easeInOut,
     delay: 0.9,
@@ -208,7 +208,7 @@ TweenMax.to(".block_9__about__mobile", 1.9, {
 // ****************************************
 
 TweenMax.to(".block_10__about", 1.9, {
-    x: "120",
+    x: "10",
     y: "550",
     scale: "2.5",
     ease: Expo.easeInOut,
