@@ -411,13 +411,10 @@ body {
 
 #cop{
     font-family: 'Inter', sans-serif;
-    /* font-family: "GRIFTER"; */
-    /* font-family: 'Mukta', sans-serif;  */
     font-weight: 200;
     font-size: 60em; 
-    text-shadow:0 4px 0 #00ecff, 0 -4px 0 #ff4045;
+    /* text-shadow:0 4px 0 #00ecff, 0 -4px 0 #ff4045; */
     /* color: rgb(240, 85, 80); */
-    
 }
 .copyright{
     position: absolute;
