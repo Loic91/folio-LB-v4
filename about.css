@@ -50,6 +50,9 @@ body {
     color: #000000;
 	text-decoration: none;
 }
+a{
+    text-decoration: none;
+}
 @media screen and (min-width: 900px){
     .navbar{
         margin-top: 50px;
@@ -64,7 +67,6 @@ body {
 @media screen and (max-width: 600px){
     .navbar{
         margin-top: -50px;
-        text-decoration: none;
     }
 }
 
