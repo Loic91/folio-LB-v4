@@ -84,7 +84,7 @@ body {
 #letter,
 #textCurved {
     fill: #fd0000;
-    font-family: "GRIFTER";
+    /* font-family: "GRIFTER"; */
 }
 
 #textCurved {
