@@ -415,7 +415,8 @@ body {
     /* font-family: 'Mukta', sans-serif;  */
     font-weight: 200;
     font-size: 60em; 
-    color: rgb(240, 85, 80);
+    text-shadow:0 4px 0 #00ecff, 0 -4px 0 #ff4045;
+    /* color: rgb(240, 85, 80); */
     
 }
 .copyright{
@@ -428,6 +429,7 @@ body {
     margin-top: -200px;
     margin-left: -550px;
     text-align: left;
+    color: rgb(240, 85, 80);
 }
 
 @media screen and (max-width: 800px){

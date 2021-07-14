@@ -217,7 +217,8 @@ svg a{
         display: none;
     }
     .block_5__about__mobile, .block_6__about__mobile, .block_7__about__mobile, .block_8__about__mobile, .block_9__about__mobile, .block_10__about__mobile, .block_11__about__mobile{
-        color: #ca2929fa;
+        /* color: #ca2929fa; */
+        text-shadow:0 4px 0 #00ecff, 0 -4px 0 #ff4045;
     }
     .display_blocks__about__mobile{
         display: flex;
@@ -229,6 +230,7 @@ svg a{
         display: flex;
         font-size: 2em;
         color: #fc8282a8;
+        text-shadow:0 4px 0 #00ecff, 0 -4px 0 #fc828200;
         margin: 10px;
         z-index: 99;
     
