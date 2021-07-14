@@ -48,10 +48,6 @@ body {
 }
 .menu_item a{
     color: #000000;
-	text-decoration: none;
-}
-a{
-    text-decoration: white;
 }
 @media screen and (min-width: 900px){
     .navbar{
@@ -97,7 +93,8 @@ a{
   text-transform: uppercase;
 }
 
-svg a{
+#letter,
+#textCurved  a{
     text-decoration: none;
 }
 
