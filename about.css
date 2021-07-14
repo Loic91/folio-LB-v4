@@ -51,7 +51,7 @@ body {
 	text-decoration: none;
 }
 a{
-    text-decoration: none;
+    text-decoration: white;
 }
 @media screen and (min-width: 900px){
     .navbar{
