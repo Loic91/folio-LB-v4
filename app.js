@@ -480,10 +480,10 @@ gsap.from('.box_color__7', 2.5, {
 
 
 
-TweenMax.from(".circle_shape", 4.2, {
-    scale: "0",
-    ease: Expo.easeInOut,
-});
+// TweenMax.from(".circle_shape", 4.2, {
+//     scale: "0",
+//     ease: Expo.easeInOut,
+// });
 
 TweenMax.from(".navbar > div", 1.6, {
     opacity: 0,

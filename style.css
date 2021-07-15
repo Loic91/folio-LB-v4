@@ -408,7 +408,14 @@ body {
     z-index: 100;
 }
 
+.header {
+    filter: url("#liquify");
+    opacity: 0;
+    /* text-align: left; */
 
+    display: flex;
+    justify-content: space-between;
+}
 #cop{
     font-family: 'Inter', sans-serif;
     font-weight: 200;
