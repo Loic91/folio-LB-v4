@@ -65,7 +65,8 @@ body {
 
 @media screen and (max-width: 600px){
     .navbar{
-        margin-top: -50px;
+        margin-top: 30px;
+        /* margin-top: -50px; */
     }
 }
 
@@ -242,7 +243,8 @@ svg:nth-child(1){
     }
     .display_blocks__about__mobile{
         display: flex;
-        margin-top: 80px;
+        margin-top: 10px;
+        /*  margin-top: 80px; */
         z-index: 200;
     }
     .blocks__about__mobile {
@@ -366,7 +368,8 @@ svg:nth-child(1){
     .text__bio{
         width: 300px;
         margin-left: 20px;
-        margin-top: -30px;
+        margin-top: 30px;
+        /* margin-top: -30px; */
         font-size: 1.1em;
     }
 }
