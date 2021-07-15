@@ -49,6 +49,9 @@ body {
 .menu_item a{
     color: #000000;
 }
+.menu{
+    margin-left: 20px;
+}
 @media screen and (min-width: 900px){
     .navbar{
         margin-top: 50px;
