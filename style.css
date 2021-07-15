@@ -460,7 +460,32 @@ body {
 }
 
 
-
+#cop p{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+p span{
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px)
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter:blur(0)
+    }
+}
+p span:nth-child(1){
+    /* color:#186aa0; */
+    opacity: 0;
+    animation-delay: 7s;
+}
 
 
 /* @media screen and (max-width: 768px){
