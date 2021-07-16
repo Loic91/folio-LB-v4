@@ -1,4 +1,11 @@
 // OVERLAY
+TweenMax.to(".first", 4.1, {
+    delay: 0.5,
+    // opacity: 0,
+    top: "-200%",
+    ease: Expo.easeInOut
+});
+
 TweenMax.to(".page", 2.4, {
     // delay: .5,
     delay: 6,
