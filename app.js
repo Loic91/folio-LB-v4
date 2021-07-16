@@ -411,7 +411,7 @@ gsap.from(".image__1", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.5,
+    delay: 3.3,
     duration:3.5, 
     ease:"power3.out"
 })
@@ -427,7 +427,7 @@ gsap.from(".image__2", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.6,
+    delay: 3.4,
     duration:4.5, 
     ease:"power3.out"
 })
@@ -443,7 +443,7 @@ gsap.from(".image__3", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.7,
+    delay: 3.5,
     duration:3.5, 
     ease:"power3.out"
 })
@@ -459,7 +459,7 @@ gsap.from(".image__4", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.8,
+    delay: 3.6,
     duration:3.5, 
     ease:"power3.out"
 })
@@ -475,7 +475,7 @@ gsap.from(".image__5", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 2.9,
+    delay: 3.7,
     duration:3.5, 
     ease:"power3.out"
 })
@@ -491,7 +491,7 @@ gsap.from(".image__6", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 3,
+    delay: 3.8,
     duration:3.5, 
     ease:"power3.out"
 })
@@ -507,7 +507,7 @@ gsap.from(".image__7", {
     y:80, 
     stagger:0.05, 
     opacity:0, 
-    delay: 3.1,
+    delay: 3.9,
     duration:3.5, 
     ease:"power3.out"
 })

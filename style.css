@@ -114,7 +114,7 @@ body {
     margin: 10px;
 } 
 .box_color__1 {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 110px;
     height: 200px;
@@ -126,7 +126,7 @@ body {
         z-index: 1;
     } 
     .box_color__1 {
-        background-color: whitesmoke;
+        background-color: rgb(255, 255, 255);
         overflow: hidden;
         width: 100px;
         height: 80px;
@@ -149,8 +149,7 @@ body {
     margin-left: -50px; */
 } 
 .box_color__2 {
-    /* background-color: #dbc4a4; */
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 110px;
     height: 200px;
@@ -163,7 +162,7 @@ body {
     
     } 
     .box_color__2 {
-        background-color: whitesmoke;
+        background-color: rgb(255, 255, 255);
         overflow: hidden;
         width: 100px;
         height: 80px;
@@ -183,7 +182,7 @@ body {
     margin: 10px;
 } 
 .box_color__3 {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 110px;
     height: 200px;
@@ -196,7 +195,7 @@ body {
     
     } 
     .box_color__3 {
-        background-color: whitesmoke;
+        background-color: rgb(255, 255, 255);
         overflow: hidden;
         width: 100px;
         height: 80px;
@@ -217,7 +216,7 @@ body {
     z-index: 1;
 } 
 .box_color__4 {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 110px;
     height: 200px;
@@ -229,7 +228,7 @@ body {
         z-index: 1;
     } 
     .box_color__4 {
-        background-color: whitesmoke;
+        background-color: rgb(255, 255, 255);
         overflow: hidden;
         width: 100px;
         height: 80px;
@@ -250,7 +249,7 @@ body {
     z-index: 1;
 } 
 .box_color__5 {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 110px;
     height: 200px;
@@ -261,7 +260,7 @@ body {
         height: 50%;
     } 
     .box_color__5 {
-        background-color: whitesmoke;
+        background-color: rgb(255, 255, 255);
         overflow: hidden;
         width: 100px;
         height: 80px;
@@ -282,7 +281,7 @@ body {
     z-index: 1;
 } 
 .box_color__6 {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 110px;
     height: 200px;
@@ -293,7 +292,7 @@ body {
         height: 50%;
     }
     .box_color__6 {
-        background-color: whitesmoke;
+        background-color: rgb(255, 255, 255);
         overflow: hidden;
         width: 100px;
         height: 80px;
