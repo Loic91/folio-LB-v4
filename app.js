@@ -8,7 +8,7 @@ TweenMax.to(".first", 3.8, {
 
 TweenMax.to(".page", 2.4, {
     // delay: 6,
-    delay: 8,
+    delay: 7,
     opacity: 0,
     duration:0.5,
     // top: "-100%",
