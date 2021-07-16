@@ -164,6 +164,7 @@ svg:nth-child(1){
         color: #ca2929fa;
     }
     .display_blocks__about{
+        animation: fadein 2s;
         display: flex;
         margin-top: 0px;
         margin-left: 150px;
@@ -190,6 +191,7 @@ svg:nth-child(1){
         color: #ca2929fa;
     }
     .display_blocks__about__1024{
+        animation: fadein 2s;
         display: flex;
         margin-top: 0px;
         z-index: 200;
@@ -216,6 +218,7 @@ svg:nth-child(1){
         color: #ca2929fa;
     }
     .display_blocks__about__tab{
+        animation: fadein 2s;
         display: flex;
         margin-top: 0px;
         z-index: 200;
@@ -242,6 +245,7 @@ svg:nth-child(1){
         /* text-shadow:0 4px 0 #00ecff, 0 -4px 0 #ff40466b; */
     }
     .display_blocks__about__mobile{
+        animation: fadein 2s;
         display: flex;
         margin-top: 10px;
         /*  margin-top: 80px; */
@@ -264,7 +268,14 @@ svg:nth-child(1){
 
 
 
-
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
 
 
 
