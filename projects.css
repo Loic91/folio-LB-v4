@@ -107,7 +107,43 @@
     width: 100%;
 }
 
-/* ************************************************************************************* */
+/* PROJETS ************************************************************************************* */
 
+.title{
+    display: flex;
+    justify-content: center;
+}
+.t1{
+    color: black;
+    margin-top: 100px;
+    display: flex;
+}
+.word-one, .word-two, .word-three, .word-four, .word-five{
+    font-family: "Branic - FREE";
+    font-weight: lighter;
+    font-size: 5em;
+}
+.display-h1 {
+    overflow: hidden;
+    max-width: 123px;
+    height: 129px;
+}
+
+.t2{
+    color: black;
+    margin-top: 100px;
+    display: flex;
+    /* margin-left: 60px; */
+}
+.word-one-2, .word-two-2, .word-three-2, .word-four-2, .word-five-2{
+    font-family: "Branic - FREE";
+    font-weight: lighter;
+    font-size: 5em;
+}
+.display-h1-2 {
+    overflow: hidden;
+    max-width: 137px;
+    height: 129px;
+}
 
 
