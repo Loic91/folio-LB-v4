@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="locomotive-scroll.css">
+    <link rel="stylesheet" href="projects.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container__projects" data-scroll-container>
+
+        <!-- NAVBAR ************************************************* -->
+        <div class="main_name">
+            <div class="name_one">
+                <h1>LOIC BRIJAWI</h1>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="site-info">Folio - No/001</div>
+            <div class="site_menu">
+                <div class="menu_item">
+                    <a data-letters="MODE SOMBRE" class="link link--kukuri" href="#">MODE SOMBRE</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="locomotive-scroll.min.js"></script>
+     <script>
+         const scroll = new LocomotiveScroll({
+             el: document.querySelector('[data-scroll-container]'),
+             smooth: true,
+ 
+             // for tablet smooth
+             tablet: { smooth: true },
+ 
+             // for mobile
+             smartphone: { smooth: true }
+         });
+     </script>
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+    <script src="projects.js"></script>
+</body>
+</html>
