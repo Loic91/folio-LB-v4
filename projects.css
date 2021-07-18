@@ -4,6 +4,15 @@
 	box-sizing: border-box;
 }
 
+html, body{
+    background-color: #fff;
+}
+
+.section{
+    height: 100vh;
+}
+
+
 .main_name{
     position: fixed;
     font-family: 'Mukta', sans-serif;
@@ -113,37 +122,64 @@
     display: flex;
     justify-content: center;
 }
+/* h2{
+    color: #000000;
+    mix-blend-mode: difference;
+} */
 .t1{
-    color: black;
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
 }
-.word-one, .word-two, .word-three, .word-four, .word-five{
+.word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
     font-family: "Branic - FREE";
     font-weight: lighter;
-    font-size: 5em;
+    font-size: 3em;
 }
 .display-h1 {
     overflow: hidden;
     max-width: 123px;
-    height: 129px;
+    height: 63px;
 }
 
 .t2{
-    color: black;
-    margin-top: 100px;
+    /* color: black; */
+    margin-top: 200px;
     display: flex;
-    /* margin-left: 60px; */
+    margin-left: 20px;
 }
-.word-one-2, .word-two-2, .word-three-2, .word-four-2, .word-five-2{
+.word-one-2, .word-two-2, .word-three-2, .word-four-2, .word-five-2, .word-six-2, .word-seven-2, .word-eight-2{
     font-family: "Branic - FREE";
     font-weight: lighter;
-    font-size: 5em;
+    font-size: 3em;
 }
 .display-h1-2 {
     overflow: hidden;
     max-width: 137px;
-    height: 129px;
+    height: 63px;
+}
+/* ************************************************************ */
+
+.img__project img{
+    width: 600px;
+}
+.img__project{
+    text-align: center;
+    margin-top: 60px;
+
+    background-color: rgb(208, 223, 210);
 }
 
 
+
+
+
+
+
+
+
+
+.lorem{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
