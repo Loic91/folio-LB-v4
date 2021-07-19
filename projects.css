@@ -121,6 +121,8 @@ html, body{
 .title{
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
+    z-index: 350;
 }
 /* h2{
     color: #000000;
@@ -159,14 +161,36 @@ html, body{
 }
 /* ************************************************************ */
 
-.img__project img{
-    width: 600px;
+.img {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 0;
+    position: relative;
+    z-index: -150;
 }
-.img__project{
-    text-align: center;
-    margin-top: 60px;
-
-    background-color: rgb(208, 223, 210);
+  
+.img img {
+    width: 100%;
+}
+  
+.img article {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    mix-blend-mode: lighten;
+}
+  
+.img div {
+    background: rgb(0, 0, 0);
+    height: 25.3vw;
+}
+  
+.img div:nth-of-type(2) {
+    grid-column: 2/4;
 }
 
 
@@ -182,4 +206,6 @@ html, body{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+
+    margin-top: 450px;
 }
