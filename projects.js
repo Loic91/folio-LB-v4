@@ -74,3 +74,41 @@ gsap.from('.word-eight-2', 1.9, {
     // delay: 6.9
     delay: 1.65
 })
+
+
+
+
+
+
+
+// page PROJETS ********************************************************************
+
+TweenMax.from(".one", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.5,
+});
+TweenMax.from(".two", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.7,
+});
+TweenMax.from(".three", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.8,
+});
+TweenMax.from(".four", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1,
+});
+TweenMax.from(".five", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.2,
+});
+
+
+
+
