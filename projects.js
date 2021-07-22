@@ -83,112 +83,30 @@ gsap.from('.word-eight-2', 1.9, {
 
 // page PROJETS ********************************************************************
 
-// TweenMax.from(".one", 1.6, {
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     delay: 0.5,
-// });
-// TweenMax.from(".two", 1.6, {
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     delay: 0.7,
-// });
-// TweenMax.from(".three", 1.6, {
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     delay: 0.9,
-// });
-// TweenMax.from(".four", 1.6, {
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     delay: 1.1,
-// });
-// TweenMax.from(".five", 1.6, {
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     delay: 1.3,
-// });
+TweenMax.from(".one", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.5,
+});
+TweenMax.from(".two", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.7,
+});
+TweenMax.from(".three", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.9,
+});
+TweenMax.from(".four", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.1,
+});
+TweenMax.from(".five", 1.6, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.3,
+});
 
 
-
-
-
-
-
-
-// SCROLLTRIGGER ****************************************************************************************************************************************************************************************************************************************************************************************************
-
-// ScrollTrigger.create({
-//     trigger: '.one__2',
-//     scroller: '.img__2',
-//     // start: "top bottom",
-//     // end: "top top",
-//     // start: 'top+=30% 50%',
-//     // end: 'bottom-=40% 50%',
-//     animation: gsap.from('.one__2', 3.6, {
-//         opacity: 0,
-//         ease: Expo.easeInOut,
-//         delay: 1.5,
-// }),
-// // markers: true
-// })
-
-// ScrollTrigger.create({
-//     trigger: '.two__2',
-//     scroller: '.img__2',
-//     // start: "top bottom",
-//     // end: "top top",
-//     // start: 'top+=30% 50%',
-//     // end: 'bottom-=40% 50%',
-//     animation: gsap.from('.two__2', 3.6, {
-//         opacity: 0,
-//         ease: Expo.easeInOut,
-//         delay: 1.7,
-// }),
-// // markers: true
-// })
-
-// ScrollTrigger.create({
-//     trigger: '.three__2',
-//     scroller: '.img__2',
-//     // start: "top bottom",
-//     // end: "top top",
-//     // start: 'top+=30% 50%',
-//     // end: 'bottom-=40% 50%',
-//     animation: gsap.from('.three__2', 3.6, {
-//         opacity: 0,
-//         ease: Expo.easeInOut,
-//         delay: 1.9,
-// }),
-// // markers: true
-// })
-
-// ScrollTrigger.create({
-//     trigger: '.four__2',
-//     scroller: '.img__2',
-//     // start: "top bottom",
-//     // end: "top top",
-//     // start: 'top+=30% 50%',
-//     // end: 'bottom-=40% 50%',
-//     animation: gsap.from('.four__2', 3.6, {
-//         opacity: 0,
-//         ease: Expo.easeInOut,
-//         delay: 2.1,
-// }),
-// // markers: true
-// })
-
-// ScrollTrigger.create({
-//     trigger: '.five__2',
-//     scroller: '.projets',
-//     // start: "top bottom",
-//     // end: "top top",
-//     start: 'top+=30% 50%',
-//     end: 'bottom-=40% 50%',
-//     animation: gsap.from('.five__2', 3.6, {
-//         opacity: 0,
-//         ease: Expo.easeInOut,
-//         delay: 2.3,
-// }),
-// markers: true
-// })
