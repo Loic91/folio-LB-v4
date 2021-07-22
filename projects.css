@@ -217,6 +217,9 @@ html, body{
 }
 
 @media screen and (max-width: 599px){
+    .title_2{
+        margin-bottom: 150px;
+    }
     .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
         font-size: 1.4em;
     }

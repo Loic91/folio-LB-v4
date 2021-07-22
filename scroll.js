@@ -30,7 +30,9 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.flo_1', 1.9, {
-                y: '100%',
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
                 delay: 0.9,
     }),
     // markers: true
@@ -44,7 +46,9 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.flo_2', 1.9, {
-                y: '100%',
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
                 delay: 0.9,
     }),
     // markers: true
@@ -58,7 +62,9 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.flo_3', 1.9, {
-                y: '100%',
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
                 delay: 0.9,
     }),
     // markers: true
@@ -72,7 +78,9 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.flo_4', 1.9, {
-                y: '100%',
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
                 delay: 0.9,
     }),
     // markers: true
@@ -86,7 +94,9 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.flo_5', 1.9, {
-                y: '100%',
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
                 delay: 0.9,
     }),
     // markers: true
@@ -100,7 +110,9 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.flo_6', 1.9, {
-                y: '100%',
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
                 delay: 0.9,
     }),
     // markers: true
@@ -114,7 +126,9 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.flo_7', 1.9, {
-                y: '100%',
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
                 delay: 0.9,
     }),
     // markers: true
