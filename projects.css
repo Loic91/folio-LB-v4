@@ -331,7 +331,7 @@ html, body{
 
 
 
-.o-title {
+/* .o-title {
     perspective: 600px;
     -webkit-perspective: 600px;
   }
@@ -363,4 +363,4 @@ html, body{
   }
   .o-title.is-inview .o-title_line:nth-child(5) {
     transition-delay: 0.8s;
-  }
+  } */
