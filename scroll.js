@@ -144,7 +144,7 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.one__2', 1.9, {
+    animation: gsap.from('.one__2', 1.6, {
                 opacity: 0,
                 ease: Expo.easeInOut,
                 delay: 0.5,
@@ -159,10 +159,10 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.two__2', 1.9, {
+    animation: gsap.from('.two__2', 2, {
                 opacity: 0,
                 ease: Expo.easeInOut,
-                delay: 0.7,
+                delay: 1,
     }),
     // markers: true
 })
@@ -174,10 +174,10 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.three__2', 1.9, {
+    animation: gsap.from('.three__2', 2.4, {
                 opacity: 0,
                 ease: Expo.easeInOut,
-                delay: 0.9,
+                delay: 1.5,
     }),
     // markers: true
 })
@@ -189,10 +189,10 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.four__2', 1.9, {
+    animation: gsap.from('.four__2', 2.8, {
                 opacity: 0,
                 ease: Expo.easeInOut,
-                delay: 1.1,
+                delay: 2,
     }),
     // markers: true
 })
@@ -204,10 +204,10 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.five__2', 1.9, {
+    animation: gsap.from('.five__2', 3.2, {
                 opacity: 0,
                 ease: Expo.easeInOut,
-                delay: 1.3,
+                delay: 2.5,
     }),
     // markers: true
 })
