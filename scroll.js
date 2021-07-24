@@ -21,6 +21,250 @@ ScrollTrigger.scrollerProxy(".smooth-scroll", {
   pinType: document.querySelector(".smooth-scroll").style.transform ? "transform" : "fixed"
 });
 
+
+// PROJETS **************************************************
+
+ScrollTrigger.create({
+    trigger: '.coif_1',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_1', 1, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_2',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_2', 1.3, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_3', 1.6, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_4',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_4', 1.9, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_5', 2.1, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_6',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_6', 2.4, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_7',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_7', 2.7, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_8',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_8', 3, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_9',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_9', 3.3, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_10',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_10', 3.6, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_11',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_11', 3.9, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_12',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_12', 4.2, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_13',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_13', 4.5, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_14',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_14', 4.8, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coif_15',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coif_15', 5.1, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+// *********************************************
 ScrollTrigger.create({
     trigger: '.flo_1',
     scroller: '.smooth-scroll',
@@ -29,7 +273,7 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.flo_1', 1.9, {
+    animation: gsap.from('.flo_1', 1, {
                 // y: '100%',
                 opacity: 0,
                 ease: Expo.easeInOut,
@@ -45,7 +289,7 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.flo_2', 1.9, {
+    animation: gsap.from('.flo_2', 1.3, {
                 // y: '100%',
                 opacity: 0,
                 ease: Expo.easeInOut,
@@ -61,7 +305,7 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.flo_3', 1.9, {
+    animation: gsap.from('.flo_3', 1.6, {
                 // y: '100%',
                 opacity: 0,
                 ease: Expo.easeInOut,
@@ -93,7 +337,7 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.flo_5', 1.9, {
+    animation: gsap.from('.flo_5', 2.2, {
                 // y: '100%',
                 opacity: 0,
                 ease: Expo.easeInOut,
@@ -109,7 +353,7 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.flo_6', 1.9, {
+    animation: gsap.from('.flo_6', 2.5, {
                 // y: '100%',
                 opacity: 0,
                 ease: Expo.easeInOut,
@@ -125,7 +369,7 @@ ScrollTrigger.create({
     end: "top top",
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
-    animation: gsap.from('.flo_7', 1.9, {
+    animation: gsap.from('.flo_7', 2.8, {
                 // y: '100%',
                 opacity: 0,
                 ease: Expo.easeInOut,
@@ -134,7 +378,91 @@ ScrollTrigger.create({
     // markers: true
 })
 
-// *************************************
+
+
+
+
+
+// PHOTOS *****************************************************
+
+ScrollTrigger.create({
+    trigger: '.one',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.one', 1.6, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.5,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.two',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.two', 2, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.three',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.three', 2.4, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 1.5,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.four',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.four', 2.8, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 2,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.five',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.five', 3.2, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 2.5,
+    }),
+    // markers: true
+})
+
+
+
 
 ScrollTrigger.create({
     trigger: '.one__2',

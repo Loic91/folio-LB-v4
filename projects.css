@@ -16,9 +16,9 @@ html, body{
 .section{
     height: 100vh;
 }
-.projets{
+/* .projets{
     margin-top: 250px;
-}
+} */
 @media screen and (max-width: 599px){
     .projets{
         margin-top: -250px;
@@ -127,14 +127,71 @@ html, body{
 .link--kukuri:hover::before {
     width: 100%;
 }
+/* TITRE *************************************************************************************** */
+.title_0{
+    color: rgb(148, 164, 167);
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    z-index: 350;
+}
+@media screen and (max-width: 599px){
+    .title_0{
+        padding-top: 320px;
+    }
+}
+.t0{
+    /* margin-top: 200px; */
+    display: flex;
+}
+.word-one-0, .word-two-0, .word-three-0{
+    font-family: "GRIFTER"; 
+    font-weight: lighter;
+    font-size: 6em;
+}
+.display-h1-0 {
+    overflow: hidden;
+    max-width: 123px;
+    height: 136px;
+}
 
+.t02{
+    /* margin-top: 200px; */
+    display: flex;
+    margin-left: 20px;
+}
+.word-one-02, .word-two-02, .word-three-02, .word-four-02, .word-five-02, .word-six-02, .word-seven-02{
+    font-family: "GRIFTER"; 
+    font-weight: lighter;
+    font-size: 6em;
+}
+.display-h1-02 {
+    overflow: hidden;
+    max-width: 137px;
+    height: 136px;
+}
+
+@media screen and (max-width: 599px){
+    .word-one-0, .word-two-0, .word-three-0{
+        font-size: 2em;
+    }
+    .word-one-02, .word-two-02, .word-three-02, .word-four-02, .word-five-02, .word-six-02, .word-seven-02{
+        font-size: 2em;
+    }
+    .display-h1-0{
+        height: 47px;
+    }
+    .display-h1-02{
+        height: 47px;
+    }
+}
 /* PROJETS ************************************************************************************* */
 
 .title{
-    color: rgb(255, 0, 106);
+    color: rgb(58, 32, 54);
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-top: 100px;
     z-index: 350;
 }
 /* h2{
@@ -142,7 +199,7 @@ html, body{
     mix-blend-mode: difference;
 } */
 .t1{
-    margin-top: 200px;
+    /* margin-top: 300px; */
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
@@ -157,8 +214,7 @@ html, body{
 }
 
 .t2{
-    /* color: black; */
-    margin-top: 200px;
+    /* margin-top: 300px; */
     display: flex;
     margin-left: 20px;
 }
@@ -201,7 +257,7 @@ html, body{
     mix-blend-mode: difference;
 } */
 .t3{
-    margin-top: 200px;
+    margin-top: 500px;
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
@@ -323,47 +379,10 @@ html, body{
     margin-left: auto;
     margin-right: auto;
 
-    margin-top: 450px;
+    margin-top: 750px;
 }
 
 
 
 
 
-
-
-
-
-/* .o-title {
-    perspective: 600px;
-    -webkit-perspective: 600px;
-  }
-  .o-title_line {
-    display: block;
-    opacity: 0;
-    transform-origin: center top;
-    transform-style: preserve-3d;
-    transform: translateY(100%) rotateX(-80deg);
-    transition: opacity 1.3s cubic-bezier(0.215, 0.61, 0.355, 1),
-      transform 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
-    font-size: 0;
-  }
-  .o-title.is-inview .o-title_line {
-    transform: none;
-    opacity: 1;
-  }
-  .o-title.is-inview .o-title_line:first-child {
-    transition-delay: 0.4s;
-  }
-  .o-title.is-inview .o-title_line:nth-child(2) {
-    transition-delay: 0.5s;
-  }
-  .o-title.is-inview .o-title_line:nth-child(3) {
-    transition-delay: 0.6s;
-  }
-  .o-title.is-inview .o-title_line:nth-child(4) {
-    transition-delay: 0.7s;
-  }
-  .o-title.is-inview .o-title_line:nth-child(5) {
-    transition-delay: 0.8s;
-  } */
