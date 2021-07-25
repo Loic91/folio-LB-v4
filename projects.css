@@ -21,7 +21,7 @@ html, body{
 } */
 @media screen and (max-width: 599px){
     .projets{
-        margin-top: -250px;
+        padding-top: -250px;
     }
 }
 
@@ -230,6 +230,12 @@ html, body{
 }
 
 @media screen and (max-width: 599px){
+    .t1{
+        margin-top: -50px;
+    }
+    .t2{
+        margin-top: -50px;
+    }
     .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
         font-size: 1.4em;
     }
@@ -257,7 +263,7 @@ html, body{
     mix-blend-mode: difference;
 } */
 .t3{
-    margin-top: 500px;
+    margin-top: 300px;
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
@@ -273,9 +279,9 @@ html, body{
 }
 
 @media screen and (max-width: 599px){
-    /* .title_2{
-        margin-bottom: 150px;
-    } */
+    .t3{
+        margin-top: -400px;
+    }
     .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
         font-size: 1.4em;
     }
@@ -331,6 +337,8 @@ html, body{
     line-height: 0;
     position: relative;
     z-index: -150;
+
+    margin-top: -100px;
 }
   
 .img__2 img {
@@ -362,7 +370,7 @@ html, body{
         grid-gap: 5px;
     }
     .img__2{
-        margin-top: -100px;
+        margin-top: -400px;
     }
 }
 
