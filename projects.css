@@ -263,7 +263,7 @@ html, body{
     mix-blend-mode: difference;
 } */
 .t3{
-    margin-top: 300px;
+    margin-top: 400px;
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
@@ -290,6 +290,52 @@ html, body{
     }
 }
 /* ************************************************************ */
+
+/* projet 3 *************************************************** */
+.title_3{
+    color: rgb(16, 51, 146);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    z-index: 350;
+}
+/* h2{
+    color: #000000;
+    mix-blend-mode: difference;
+} */
+.t4{
+    margin-top: 750px;
+    display: flex;
+}
+.word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
+    font-family: "GRIFTER"; 
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+.display-h1-3 {
+    overflow: hidden;
+    max-width: 137px;
+    height: 69px;
+}
+
+@media screen and (max-width: 599px){
+    .t4{
+        margin-top: -400px;
+    }
+    .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
+        font-size: 1.4em;
+    }
+    .display-h1-3{
+        height: 32px;
+    }
+    .title_3{
+        margin-top: -300px;
+    }
+}
+/* ************************************************************ */
+
+
 
 .img {
     width: 80%;
@@ -370,6 +416,50 @@ html, body{
         grid-gap: 5px;
     }
     .img__2{
+        margin-top: -400px;
+    }
+}
+/* ************************************************************ */
+
+.img__3 {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 0;
+    position: relative;
+    z-index: -150;
+
+    margin-top: -100px;
+}
+  
+.img__3 img {
+    width: 100%;
+}
+  
+.img__3 article {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    mix-blend-mode: lighten;
+}
+  
+.img__3 div {
+    background: rgba(21, 91, 121, 0.589);
+    height: 26.5vw;
+}
+  
+.img__3 div:nth-of-type(2) {
+    grid-column: 2/4;
+}
+
+@media screen and (max-width: 599px){
+    .img__3 article{
+        grid-gap: 5px;
+    }
+    .img__3{
         margin-top: -400px;
     }
 }
