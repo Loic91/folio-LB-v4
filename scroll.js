@@ -378,6 +378,124 @@ ScrollTrigger.create({
     // markers: true
 })
 
+// *********************************************
+
+ScrollTrigger.create({
+    trigger: '.jo_1',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.jo_1', 1, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.jo_2',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.jo_2', 1.3, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.jo_3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.jo_3', 1.6, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.jo_4',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.jo_4', 1.9, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.jo_5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.jo_5', 2.2, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.jo_6',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.jo_6', 2.5, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.jo_7',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.jo_7', 2.8, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+
+
+
+
 
 
 
@@ -539,6 +657,87 @@ ScrollTrigger.create({
     }),
     // markers: true
 })
+
+
+
+
+ScrollTrigger.create({
+    trigger: '.one__3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.one__3', 1.6, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.5,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.two__3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.two__3', 2, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.three__3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.three__3', 2.4, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 1.5,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.four__3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.four__3', 2.8, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 2,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.five__3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.five__3', 3.2, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 2.5,
+    }),
+    // markers: true
+})
+
+
 
 
 
