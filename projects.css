@@ -292,7 +292,7 @@ html, body{
 
 /* projet 3 *************************************************** */
 .title_3{
-    color: rgb(16, 51, 146);
+    color: rgb(14, 37, 102);
     display: flex;
     justify-content: center;
     /* margin-bottom: 100px; */
@@ -433,7 +433,7 @@ html, body{
     position: absolute;
     top: 0;
     width: 100%;
-    background: white;
+    background: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
@@ -441,7 +441,7 @@ html, body{
 }
   
 .img__3 div {
-    background: rgba(21, 91, 121, 0.589);
+    background: rgba(6, 28, 124, 0.836);
     height: 26.5vw;
 }
   
