@@ -363,9 +363,19 @@ html, body{
     grid-column: 2/4;
 }
 
+.text_passion{
+    color: white;
+    z-index: 350;
+    text-align: right;
+    margin: 10px;
+}
+
 @media screen and (max-width: 599px){
     .img article{
         grid-gap: 5px;
+    }
+    .text_passion{
+        display: none;
     }
 }
 

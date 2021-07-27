@@ -534,6 +534,20 @@ ScrollTrigger.create({
     // markers: true
 })
 ScrollTrigger.create({
+    trigger: '.text_passion',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    animation: gsap.from('.text_passion', 2.8, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 1,
+    }),
+    // markers: true
+})
+
+ScrollTrigger.create({
     trigger: '.three',
     scroller: '.smooth-scroll',
 
