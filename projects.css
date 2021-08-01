@@ -132,7 +132,7 @@ html, body{
 }
 /* TITRE *************************************************************************************** */
 .title_0{
-    color: #fd0000;
+    color: #610606;
     display: flex;
     justify-content: center;
     padding-top: 200px;
@@ -188,6 +188,35 @@ html, body{
         height: 47px;
     }
 }
+
+/* ARROW ************************************ */
+.arrow {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;  
+    /* animation: dash 3s linear forwards infinite; */
+    animation: dash 4s linear forwards;
+    animation-delay: 1.9s;
+}
+.fleche{
+    text-align: center;
+    margin-top: 200px;
+}
+svg{
+    transform:  rotate(90deg);
+}
+  
+@keyframes dash { 
+    0%
+    {
+      stroke-dashoffset: 100;  
+    }
+    100% {
+      stroke-dashoffset: 0;  
+    }
+}
+
+
+
 /* PROJETS ************************************************************************************* */
 
 .title{
@@ -197,12 +226,7 @@ html, body{
     margin-top: 100px;
     z-index: 350;
 }
-/* h2{
-    color: #000000;
-    mix-blend-mode: difference;
-} */
 .t1{
-    /* margin-top: 300px; */
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{

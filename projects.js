@@ -1,47 +1,80 @@
 // TITLE ********************************************************
 gsap.from('.word-one-0', 1.9, {
-    y: '100%',
-    delay: 0.9
+    // y: '100%',
+    // delay: 0.9
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.9,
 })
 gsap.from('.word-two-0', 1.9, {
-    y: '100%',
-    delay: 0.93
+    // y: '100%',
+    // delay: 0.93
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.6,
 })
 gsap.from('.word-three-0', 1.9, {
-    y: '100%',
-    delay: 0.96
+    // y: '100%',
+    // delay: 0.96
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.3,
 })
 
 
 
 gsap.from('.word-one-02', 1.9, {
-    y: '100%',
-    delay: 0.99
+    // y: '100%',
+    // delay: 0.99
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.7,
 })
 gsap.from('.word-two-02', 1.9, {
-    y: '100%',
-    delay: 1.02
+    // y: '100%',
+    // delay: 1.02
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1,
 })
 gsap.from('.word-three-02', 1.9, {
-    y: '100%',
-    delay: 1.05
+    // y: '100%',
+    // delay: 1.05
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.5,
 })
 gsap.from('.word-four-02', 1.9, {
-    y: '100%',
-    delay: 1.08
+    // y: '100%',
+    // delay: 1.08
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.4,
 })
 gsap.from('.word-five-02', 1.9, {
-    y: '100%',
-    delay: 1.11
+    // y: '100%',
+    // delay: 1.11
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.9,
 })
 gsap.from('.word-six-02', 1.9, {
-    y: '100%',
-    delay: 1.14
+    // y: '100%',
+    // delay: 1.14
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.2,
 })
 gsap.from('.word-seven-02', 1.9, {
-    y: '100%',
-    delay: 1.17
+    // y: '100%',
+    // delay: 1.17
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 0.6,
 })
+
+
+
 
 // PROJETS ***************************************************************
 
