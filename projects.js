@@ -1,3 +1,38 @@
+// NAVBAR *******************************************************
+gsap.from('.name_one', 1.9, {
+    y: '100%',
+    delay: 2.5
+})
+gsap.from('.navbar', 1.9, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 2.9,
+})
+
+// FOOTER *****************************************************
+TweenMax.from(".switch", 2.6, {
+    opacity: 0,
+    y: '80%',
+    ease: Expo.easeInOut,
+    delay: 3.9,
+});
+TweenMax.from(".projects", 2.6, {
+    opacity: 0,
+    y: '80%',
+    ease: Expo.easeInOut,
+    delay: 3.9,
+});
+
+TweenMax.from("#bodymovin", 2.6, {
+    opacity: 0,
+    y: '80%',
+    ease: Expo.easeInOut,
+    delay: 4.3,
+});
+
+
+
+
 // TITLE ********************************************************
 gsap.from('.word-one-0', 1.9, {
     // y: '100%',
