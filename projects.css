@@ -196,18 +196,17 @@ html, body{
 }
 
 /* ARROW ************************************ */
-.arrow {
+/* .arrow {
     stroke-dasharray: 100;
-    stroke-dashoffset: 100;  
-    /* animation: dash 3s linear forwards infinite; */
+    stroke-dashoffset: 100;
     animation: dash 4s linear forwards;
     animation-delay: 1.9s;
-}
+} */
 .fleche{
     text-align: center;
     margin-top: 200px;
 }
-svg{
+/* svg{
     transform:  rotate(90deg);
 }
   
@@ -219,7 +218,70 @@ svg{
     100% {
       stroke-dashoffset: 0;  
     }
-}
+} */
+
+
+
+.scroll {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 80px;
+    overflow: hidden;
+  }
+  .scroll__line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 1px;
+    height: 100%;
+    z-index: 10;
+    background-color: #000000;
+    -webkit-animation: scroll 2s infinite normal;
+            animation: scroll 2s infinite normal;
+    transform: translateY(-50%);
+  }
+  .scroll__arrow {
+    display: block;
+    position: relative;
+    z-index: 111;
+    padding-left: 1px;
+    top: -13px;
+  }
+  
+  @-webkit-keyframes scroll {
+    0% {
+      transform: translate3d(0, -100%, 0);
+    }
+    15% {
+      transform: translate3d(0, -95%, 0);
+    }
+    85% {
+      transform: translate3d(0, 95%, 0);
+    }
+    100% {
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translate3d(0, -100%, 0);
+    }
+    15% {
+      transform: translate3d(0, -95%, 0);
+    }
+    85% {
+      transform: translate3d(0, 95%, 0);
+    }
+    100% {
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+
+
+
 
 @media screen and (max-width: 600px){
     .fleche{
