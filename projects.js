@@ -109,6 +109,13 @@ gsap.from('.word-seven-02', 1.9, {
 })
 
 
+gsap.from('.fleche', 5.5, {
+    y: '40%',
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.4,
+})
+
 
 
 // PROJETS ***************************************************************
