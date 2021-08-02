@@ -367,7 +367,8 @@ svg{
 
 
 .img {
-    width: 80%;
+    /* width: 80%; */
+    width: 70%;
     margin: 0 auto;
     line-height: 0;
     position: relative;
@@ -391,7 +392,8 @@ svg{
   
 .img div {
     background: rgb(255, 0, 106);
-    height: 26.35vw;
+    /* height: 26.35vw; */
+    height: 23vw;
 }
   
 .img div:nth-of-type(2) {
@@ -406,6 +408,12 @@ svg{
 }
 
 @media screen and (max-width: 599px){
+    .img{
+        width: 80%;
+    }
+    .img div{
+        height: 26.35vw
+    }
     .img article{
         grid-gap: 5px;
     }
@@ -417,7 +425,8 @@ svg{
 /* ************************************************************ */
 
 .img__2 {
-    width: 80%;
+    /* width: 80%; */
+    width: 70%;
     margin: 0 auto;
     line-height: 0;
     position: relative;
@@ -443,7 +452,8 @@ svg{
   
 .img__2 div {
     background: rgba(85, 146, 16, 0.589);
-    height: 26.5vw;
+    /* height: 26.5vw; */
+    height: 23.15vw;
 }
   
 .img__2 div:nth-of-type(2) {
@@ -451,6 +461,12 @@ svg{
 }
 
 @media screen and (max-width: 599px){
+    .img__2{
+        width: 80%;
+    }
+    .img__2 div{
+        height: 26.35vw
+    }
     .img__2 article{
         grid-gap: 5px;
     }
@@ -461,7 +477,8 @@ svg{
 /* ************************************************************ */
 
 .img__3 {
-    width: 80%;
+    /* width: 80%; */
+    width: 70%;
     margin: 0 auto;
     line-height: 0;
     position: relative;
@@ -485,7 +502,8 @@ svg{
   
 .img__3 div {
     background: rgba(6, 28, 124, 0.836);
-    height: 26.5vw;
+    /* height: 26.5vw; */
+    height: 23vw;
 }
   
 .img__3 div:nth-of-type(2) {
@@ -493,6 +511,12 @@ svg{
 }
 
 @media screen and (max-width: 599px){
+    .img__3{
+        width: 80%;
+    }
+    .img__3 div{
+        height: 26.35vw
+    }
     .img__3 article{
         grid-gap: 5px;
     }
