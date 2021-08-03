@@ -14,7 +14,7 @@ html, body{
 }
 
 .section{
-    height: 100vh;
+    height: 50vh;
 }
 .projet__2, .projet__3{
     margin-top: 300px;
@@ -25,12 +25,17 @@ html, body{
 } */
 
 @media screen and (max-width: 599px){
+    .projet__1{
+        margin-top: 300px;
+    }
     .projet__2{
-        margin-top: 0px;
+        margin-top: 400px;
     }
     .projet__3{
-        margin-top: -400px;
-        height: 10vh;
+        margin-top: 0px;
+    }
+    .projet__4{
+        margin-top: 0px;
     }
 }
 
@@ -146,7 +151,7 @@ html, body{
 }
 @media screen and (max-width: 599px){
     .title_0{
-        padding-top: 250px;
+        padding-top: 5px;
     }
 }
 .t0{
@@ -426,11 +431,47 @@ html, body{
 }
 /* ************************************************************ */
 
+/* projet 4 *************************************************** */
+.title_4{
+    color: rgb(41, 226, 87);
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 100px; */
+    z-index: 350;
+}
+.t5{
+    display: flex;
+}
+.word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
+    font-family: "GRIFTER"; 
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+.display-h1-4 {
+    overflow: hidden;
+    max-width: 137px;
+    height: 69px;
+}
+
+@media screen and (max-width: 599px){
+    .t5{
+        margin-top: -450px;
+    }
+    .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
+        font-size: 1.4em;
+    }
+    .display-h1-4{
+        height: 32px;
+    }
+}
+
+
 
 
 .img {
     /* width: 80%; */
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     line-height: 0;
     position: relative;
@@ -455,19 +496,13 @@ html, body{
 .img div {
     background: rgb(255, 0, 106);
     /* height: 26.35vw; */
-    height: 23vw;
+    height: 19.7vw;
 }
   
 .img div:nth-of-type(2) {
     grid-column: 2/4;
 }
 
-.text_passion{
-    color: white;
-    z-index: 350;
-    text-align: right;
-    margin: 10px;
-}
 
 @media screen and (max-width: 599px){
     .img{
@@ -479,16 +514,13 @@ html, body{
     .img article{
         grid-gap: 5px;
     }
-    .text_passion{
-        display: none;
-    }
 }
 
 /* ************************************************************ */
 
 .img__2 {
     /* width: 80%; */
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     line-height: 0;
     position: relative;
@@ -515,7 +547,7 @@ html, body{
 .img__2 div {
     background: rgba(85, 146, 16, 0.589);
     /* height: 26.5vw; */
-    height: 23.15vw;
+    height: 19.79vw;
 }
   
 .img__2 div:nth-of-type(2) {
@@ -540,7 +572,7 @@ html, body{
 
 .img__3 {
     /* width: 80%; */
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     line-height: 0;
     position: relative;
@@ -565,7 +597,7 @@ html, body{
 .img__3 div {
     background: rgba(6, 28, 124, 0.836);
     /* height: 26.5vw; */
-    height: 23vw;
+    height: 19.65vw;
 }
   
 .img__3 div:nth-of-type(2) {
@@ -583,6 +615,57 @@ html, body{
         grid-gap: 5px;
     }
     .img__3{
+        margin-top: -400px;
+    }
+}
+
+/* ************************************************************ */
+
+.img__4 {
+    /* width: 80%; */
+    width: 60%;
+    margin: 0 auto;
+    line-height: 0;
+    position: relative;
+    z-index: -150;
+}
+  
+.img__4 img {
+    width: 100%;
+}
+  
+.img__4 article {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    mix-blend-mode: lighten;
+}
+  
+.img__4 div {
+    background: rgba(6, 124, 51, 0.836);
+    /* height: 26.5vw; */
+    height: 20.33vw;
+}
+  
+.img__4 div:nth-of-type(2) {
+    grid-column: 2/4;
+}
+
+@media screen and (max-width: 599px){
+    .img__4{
+        width: 80%;
+    }
+    .img__4 div{
+        height: 26.35vw
+    }
+    .img__4 article{
+        grid-gap: 5px;
+    }
+    .img__4{
         margin-top: -400px;
     }
 }
@@ -636,20 +719,13 @@ html, body{
 
     z-index: 950;
 }
-/* .footer #bodymovin{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    width: 5%;
-    margin-bottom: 20px;
-} */
-/* @media screen and (max-width: 600px){
-    .footer #bodymovin{
-        width: 10%;
-        margin-bottom: 25px;
+
+
+@media screen and (max-width: 600px){
+    .footer{
+        margin-bottom: 300px;
     }
-} */
+}
 
 
 
