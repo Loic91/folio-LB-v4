@@ -760,8 +760,8 @@ svg{
     content: " ";
   }
   .marquee.left span {
-    -webkit-animation: 100s marqueeAnimation infinite linear;
-            animation: 100s marqueeAnimation infinite linear;
+    -webkit-animation: 80s marqueeAnimation infinite linear;
+            animation: 80s marqueeAnimation infinite linear;
     margin-top: -100px;
   }
   .marquee.right span {
@@ -778,6 +778,6 @@ svg{
         margin-top: 0px;
     }
     .marquee.right span{
-        margin-top: 0px;
+        margin-top: -20px;
     }
   }
