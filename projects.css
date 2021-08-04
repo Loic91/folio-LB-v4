@@ -318,7 +318,7 @@ html, body{
 /* PROJETS ************************************************************************************* */
 
 .title{
-    color: rgb(58, 32, 54);
+    color: rgb(99, 7, 58);
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -377,7 +377,7 @@ html, body{
 
 /* projet 2 *************************************************** */
 .title_2{
-    color: rgb(85, 146, 16);
+    color: rgb(146, 75, 16);
     display: flex;
     justify-content: center;
     /* margin-bottom: 100px; */
@@ -518,7 +518,7 @@ html, body{
 }
   
 .img div {
-    background: rgb(255, 0, 106);
+    background: rgb(255, 0, 179);
     /* height: 26.35vw; */
     height: 19.7vw;
 }
