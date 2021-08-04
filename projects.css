@@ -221,31 +221,10 @@ html, body{
 }
 
 /* ARROW ************************************ */
-/* .arrow {
-    stroke-dasharray: 100;
-    stroke-dashoffset: 100;
-    animation: dash 4s linear forwards;
-    animation-delay: 1.9s;
-} */
 .fleche{
     text-align: center;
     margin-top: 200px;
 }
-/* svg{
-    transform:  rotate(90deg);
-}
-  
-@keyframes dash { 
-    0%
-    {
-      stroke-dashoffset: 100;  
-    }
-    100% {
-      stroke-dashoffset: 0;  
-    }
-} */
-
-
 
 .scroll {
     position: relative;
@@ -311,6 +290,10 @@ html, body{
 @media screen and (max-width: 600px){
     .fleche{
         margin-top: 140px;
+    }
+    svg{
+        margin-top: 5px;
+        margin-right: 2px;
     }
 }
 
