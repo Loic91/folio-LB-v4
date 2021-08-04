@@ -354,6 +354,21 @@ html, body{
     height: 69px;
 }
 
+/* @media screen and (max-width: 899px){
+    .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
+        font-size: 1.4em;
+    }
+    .word-one-2, .word-two-2, .word-three-2, .word-four-2, .word-five-2, .word-six-2, .word-seven-2, .word-eight-2{
+        font-size: 1.9em;
+    }
+    .display-h1{
+        height: 32px;
+    }
+    .display-h1-2{
+        height: 32px;
+    }
+} */
+
 @media screen and (max-width: 599px){
     .t1{
         margin-top: -50px;
