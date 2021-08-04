@@ -17,14 +17,22 @@ html, body{
     height: 100vh;
 }
 .section{
-    height: 40vh;
+    height: 90vh;
 }
 .projet__2, .projet__3, .projet__4{
     margin-top: 300px;
 }
 
-
+@media screen and (max-width: 899px){
+    .section{
+        height: 35vh;
+    }
+    
+}
 @media screen and (max-width: 599px){
+    .section{
+        height: 40vh;
+    }
     .projet__2{
         margin-top: 0px;
     }
@@ -183,6 +191,20 @@ html, body{
     height: 136px;
 }
 
+@media screen and (max-width: 899px){
+    .word-one-0, .word-two-0, .word-three-0{
+        font-size: 4em;
+    }
+    .word-one-02, .word-two-02, .word-three-02, .word-four-02, .word-five-02, .word-six-02, .word-seven-02{
+        font-size: 4em;
+    }
+    .display-h1-0{
+        height: 91px;
+    }
+    .display-h1-02{
+        height: 91px;
+    }
+}
 @media screen and (max-width: 599px){
     .word-one-0, .word-two-0, .word-three-0{
         font-size: 2em;
@@ -529,7 +551,7 @@ html, body{
     position: relative;
     z-index: -150;
 
-    /* margin-top: -100px; */
+    /* margin-top: 100px; */
 }
   
 .img__2 img {
@@ -568,7 +590,7 @@ html, body{
         grid-gap: 5px;
     }
     /* .img__2{
-        margin-top: -400px;
+        margin-top: 0px;
     } */
 }
 /* ************************************************************ */
