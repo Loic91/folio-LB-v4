@@ -225,7 +225,9 @@ html, body{
     text-align: center;
     margin-top: 200px;
 }
-
+svg{
+    margin-top: 15px;
+}
 .scroll {
     position: relative;
     margin: auto;
@@ -688,28 +690,9 @@ html, body{
     .img__4 article{
         grid-gap: 5px;
     }
-    /* .img__4{
-        margin-top: -400px;
-    } */
 }
 
 
-
-
-
-
-
-/* .bloc_final{
-    margin-top: 150px
-} */
-
-/* .lorem{
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 1050px;
-} */
 
 
 
@@ -742,20 +725,59 @@ html, body{
 
     z-index: 950;
 }
-/* .footer #bodymovin{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    width: 5%;
-    margin-bottom: 20px;
-} */
-/* @media screen and (max-width: 600px){
-    .footer #bodymovin{
-        width: 10%;
-        margin-bottom: 25px;
+
+/* ********************************************************************************************************************************************************************************************** */
+
+@-webkit-keyframes marqueeAnimation {
+    from {
+      transform: translateX(0);
     }
-} */
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marqueeAnimation {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .marquee {
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 200px;
+    position: relative;
+    width: 100%;
+    pointer-events: none;
 
+    font-family: "GRIFTER";
+    color: #ca2929fa;
+  }
+  .marquee span:after {
+    content: " ";
+  }
+  .marquee.left span {
+    -webkit-animation: 100s marqueeAnimation infinite linear;
+            animation: 100s marqueeAnimation infinite linear;
+    margin-top: -100px;
+  }
+  .marquee.right span {
+    animation: 50s marqueeAnimation infinite linear reverse;
+    color: #ca292971;
+    margin-top: -100px;
+  }
 
-
+  @media screen and (max-width: 600px){
+    .marquee{
+        font-size: 60px;
+    }
+    .marquee.left span{
+        margin-top: -50px;
+    }
+    .marquee.right span{
+        margin-top: -40px;
+    }
+  }
