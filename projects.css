@@ -149,7 +149,7 @@ html, body{
 }
 /* TITRE *************************************************************************************** */
 .title_0{
-    color: #ca2929fa;
+    /* color: #ca2929fa; */
     display: flex;
     justify-content: center;
     padding-top: 200px;
@@ -163,6 +163,7 @@ html, body{
     font-family: "GRIFTER"; 
     font-weight: lighter;
     font-size: 6em;
+    color: #fc8282a8;
 }
 .display-h1-0 {
     /* overflow: hidden; */
@@ -179,6 +180,7 @@ html, body{
     font-family: "GRIFTER"; 
     font-weight: lighter;
     font-size: 6em;
+    color: #ca2929fa;
 }
 .display-h1-02 {
     overflow: hidden;
@@ -224,11 +226,13 @@ html, body{
         font-family: "GRIFTER"; 
         font-weight: lighter;
         font-size: 4em;
+        color: #fc8282a8;
     }
     .word-one-02_tab, .word-two-02_tab, .word-three-02_tab, .word-four-02_tab, .word-five-02_tab, .word-six-02_tab, .word-seven-02_tab{
         font-family: "GRIFTER"; 
         font-weight: lighter;
         font-size: 4em;
+        color: #ca2929fa;
     }
     .display-h1-0{
         height: 91px;
@@ -246,7 +250,7 @@ html, body{
         display: none;
     }
     .title_0_mobile{
-        color: #ca2929fa;
+        /* color: #ca2929fa; */
         display: flex;
         justify-content: center;
         z-index: 350;
@@ -263,11 +267,13 @@ html, body{
         font-family: "GRIFTER"; 
         font-weight: lighter;
         font-size: 2em;
+        color: #fc8282a8;
     }
     .word-one-02_mobile, .word-two-02_mobile, .word-three-02_mobile, .word-four-02_mobile, .word-five-02_mobile, .word-six-02_mobile, .word-seven-02_mobile{
         font-family: "GRIFTER"; 
         font-weight: lighter;
         font-size: 2em;
+        color: #ca2929fa;
     }
     .display-h1-0_mobile{
         height: 47px;
