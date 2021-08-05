@@ -581,7 +581,8 @@ svg{
 }
   
 .img div {
-    background: rgb(255, 0, 179);
+    /* background: rgb(255, 0, 179); */
+    background: #ca2929fa;
     /* height: 26.35vw; */
     height: 19.7vw;
 }
@@ -633,7 +634,8 @@ svg{
 }
   
 .img__2 div {
-    background: rgba(85, 146, 16, 0.589);
+    /* background: rgba(85, 146, 16, 0.589); */
+    background: #ca2929fa;
     /* height: 26.5vw; */
     height: 19.78vw;
 }
@@ -683,7 +685,8 @@ svg{
 }
   
 .img__3 div {
-    background: rgba(6, 28, 124, 0.836);
+    /* background: rgba(6, 28, 124, 0.836); */
+    background: #ca2929fa;
     /* height: 26.5vw; */
     height: 19.65vw;
 }
@@ -734,7 +737,8 @@ svg{
 }
   
 .img__4 div {
-    background: rgba(33, 124, 6, 0.836);
+    /* background: rgba(33, 124, 6, 0.836); */
+    background: #ca2929fa;
     /* height: 26.5vw; */
     height: 19.65vw;
 }
