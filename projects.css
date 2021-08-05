@@ -20,7 +20,7 @@ html, body{
     height: 90vh;
 }
 .projet__2, .projet__3, .projet__4{
-    margin-top: 300px;
+    margin-top: 0px;
 }
 .section_footer{
     height: 50vh;
@@ -446,7 +446,7 @@ svg{
     color: #ca2929;
     display: flex;
     justify-content: center;
-    /* margin-bottom: 100px; */
+    /* margin-top: -250px; */
     z-index: 350;
 }
 .t3{
@@ -483,7 +483,7 @@ svg{
     color: #ca2929;
     display: flex;
     justify-content: center;
-    /* margin-bottom: 100px; */
+    /* margin-top: -270px; */
     z-index: 350;
 }
 .t4{
@@ -521,7 +521,7 @@ svg{
     color: #ca2929;
     display: flex;
     justify-content: center;
-    /* margin-bottom: 100px; */
+    /* margin-top: -150px; */
     z-index: 350;
 }
 .t5{
