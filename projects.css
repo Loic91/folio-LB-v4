@@ -25,7 +25,11 @@ html, body{
 .section_footer{
     height: 50vh;
 }
-
+@media screen and (min-width: 1390px){
+    .projet__2, .projet__3, .projet__4{
+        margin-top: 150px;
+    }
+}
 @media screen and (max-width: 899px){
     .section{
         height: 35vh;
