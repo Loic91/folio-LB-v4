@@ -155,13 +155,8 @@ html, body{
     padding-top: 200px;
     z-index: 350;
 }
-@media screen and (max-width: 599px){
-    .title_0{
-        padding-top: 250px;
-    }
-}
+
 .t0{
-    /* margin-top: 200px; */
     display: flex;
 }
 .word-one-0, .word-two-0, .word-three-0{
@@ -170,16 +165,16 @@ html, body{
     font-size: 6em;
 }
 .display-h1-0 {
-    overflow: hidden;
+    /* overflow: hidden; */
     max-width: 123px;
     height: 136px;
 }
 
 .t02{
-    /* margin-top: 200px; */
     display: flex;
     margin-left: 20px;
 }
+
 .word-one-02, .word-two-02, .word-three-02, .word-four-02, .word-five-02, .word-six-02, .word-seven-02{
     font-family: "GRIFTER"; 
     font-weight: lighter;
@@ -191,11 +186,48 @@ html, body{
     height: 136px;
 }
 
+@media screen and (min-width: 900px){
+    .title_0_tab{
+        display: none;
+    }
+}
+@media screen and (min-width: 601px){
+    .title_0_mobile{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 899px){
-    .word-one-0, .word-two-0, .word-three-0{
+    .title_0{
+        display: none;
+    }
+    .title_0_mobile{
+        display: none;
+    }
+
+    .title_0_tab{
+        color: #ca2929fa;
+        display: flex;
+        justify-content: center;
+        z-index: 350;
+        padding-top: 200px;
+    }
+    .t0_tab{
+        display: flex;
+    }
+    .t02_tab{
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .word-one-0_tab, .word-two-0_tab, .word-three-0_tab{
+        font-family: "GRIFTER"; 
+        font-weight: lighter;
         font-size: 4em;
     }
-    .word-one-02, .word-two-02, .word-three-02, .word-four-02, .word-five-02, .word-six-02, .word-seven-02{
+    .word-one-02_tab, .word-two-02_tab, .word-three-02_tab, .word-four-02_tab, .word-five-02_tab, .word-six-02_tab, .word-seven-02_tab{
+        font-family: "GRIFTER"; 
+        font-weight: lighter;
         font-size: 4em;
     }
     .display-h1-0{
@@ -205,17 +237,42 @@ html, body{
         height: 91px;
     }
 }
-@media screen and (max-width: 599px){
-    .word-one-0, .word-two-0, .word-three-0{
+
+@media screen and (max-width: 600px){
+    .title_0{
+        display: none;
+    }
+    .title_0_tab{
+        display: none;
+    }
+    .title_0_mobile{
+        color: #ca2929fa;
+        display: flex;
+        justify-content: center;
+        z-index: 350;
+        padding-top: 250px;
+    }
+    .t0_mobile{
+        display: flex;
+    }
+    .t02_mobile{
+        display: flex;
+        margin-left: 20px;
+    }
+    .word-one-0_mobile, .word-two-0_mobile, .word-three-0_mobile{
+        font-family: "GRIFTER"; 
+        font-weight: lighter;
         font-size: 2em;
     }
-    .word-one-02, .word-two-02, .word-three-02, .word-four-02, .word-five-02, .word-six-02, .word-seven-02{
+    .word-one-02_mobile, .word-two-02_mobile, .word-three-02_mobile, .word-four-02_mobile, .word-five-02_mobile, .word-six-02_mobile, .word-seven-02_mobile{
+        font-family: "GRIFTER"; 
+        font-weight: lighter;
         font-size: 2em;
     }
-    .display-h1-0{
+    .display-h1-0_mobile{
         height: 47px;
     }
-    .display-h1-02{
+    .display-h1-02_mobile{
         height: 47px;
     }
 }
@@ -223,7 +280,7 @@ html, body{
 /* ARROW ************************************ */
 .fleche{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 350px;
 }
 svg{
     margin-top: 15px;
