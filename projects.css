@@ -24,7 +24,7 @@ html, body{
     margin-top: 0px;
 }
 .section_footer{
-    height: 160vh;
+    height: 150vh;
 }
 @media screen and (min-width: 1390px){
     .projet__2, .projet__3, .projet__4{
@@ -848,10 +848,10 @@ svg{
         font-size: 60px;
     }
     .marquee.left span{
-        margin-top: 240px;
+        margin-top: 220px;
     }
     .marquee.right span{
-        margin-top: -20px;
+        margin-top: 0px;
     }
   }
 
