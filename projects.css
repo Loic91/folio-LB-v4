@@ -22,6 +22,9 @@ html, body{
 .projet__2, .projet__3, .projet__4{
     margin-top: 300px;
 }
+.section_footer{
+    height: 50vh;
+}
 
 @media screen and (max-width: 899px){
     .section{
