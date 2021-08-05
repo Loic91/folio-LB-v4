@@ -2,6 +2,7 @@
     font-family: "GRIFTER"; 
     src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 * {
 	margin: 0;
@@ -23,7 +24,7 @@ html, body{
     margin-top: 0px;
 }
 .section_footer{
-    height: 140vh;
+    height: 160vh;
 }
 @media screen and (min-width: 1390px){
     .projet__2, .projet__3, .projet__4{
@@ -41,13 +42,13 @@ html, body{
         height: 40vh;
     }
     .projet__2{
-        margin-top: 0px;
+        margin-top: 50px;
     }
     .projet__3{
-        margin-top: 0px;
+        margin-top: 50px;
     }
     .projet__4{
-        margin-top: 0px;
+        margin-top: 50px;
     }
 }
 
@@ -839,7 +840,7 @@ svg{
   .marquee.right span {
     animation: 30s marqueeAnimation infinite linear reverse;
     color: #ca292971;
-    margin-top: -100px;
+    margin-top: -70px;
   }
 
   @media screen and (max-width: 600px){
@@ -847,7 +848,7 @@ svg{
         font-size: 60px;
     }
     .marquee.left span{
-        margin-top: 160px;
+        margin-top: 240px;
     }
     .marquee.right span{
         margin-top: -20px;
@@ -873,6 +874,7 @@ svg{
 }
 
 .contact_text p{
+    font-family: 'Rubik', sans-serif;
     font-size: 1.5em;
     color: black;
     width: 700px;
@@ -906,6 +908,7 @@ svg{
     }
 
     .contact_text p{
+        font-size: 1em;
         width: 300px;
         margin-left: auto;
         padding-top: 200px;
