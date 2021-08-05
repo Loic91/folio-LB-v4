@@ -39,9 +39,12 @@ html, body{
         height: 100vh;
     }
 }
-@media screen and (max-width: 599px){
+@media screen and (max-width: 600px){
     .section{
         height: 40vh;
+    }
+    .section_footer{
+        height: 150vh;
     }
     .projet__2{
         margin-top: 50px;
