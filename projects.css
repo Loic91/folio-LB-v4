@@ -895,3 +895,32 @@ svg{
 .dribbble{
     font-size: 2em;
 }
+
+
+@media screen and (max-width: 600px){
+    #title__h3{
+        font-size: 2.5em;
+    }
+    .contact_title{
+        height: 144px;
+    }
+
+    .contact_text p{
+        width: 300px;
+        margin-left: auto;
+        padding-top: 200px;
+    }
+
+    .reseaux{
+        margin-right: 10px;
+    }
+    .contact_email{
+        font-size: 1.5em;
+    }
+    .twitter{
+        font-size: 1.5em;
+    }
+    .dribbble{
+        font-size: 1.5em;
+    }
+}
