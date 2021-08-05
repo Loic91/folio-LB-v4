@@ -284,14 +284,14 @@ TweenMax.to(".t02", 1.9, {
 });
 
 TweenMax.to(".t0_mobile", 1.9, {
-    x: "-20",
+    x: "-22",
     y: "-40",
     scale: "0.6",
     ease: Expo.easeInOut,
     delay: 2.9,
 });
 TweenMax.to(".t02_mobile", 1.9, {
-    x: "-70",
+    x: "-60",
     y: "10",
     scale: "1.5",
     ease: Expo.easeInOut,
