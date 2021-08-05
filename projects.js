@@ -257,11 +257,12 @@ gsap.from('.word-seven-02_tab', 1.9, {
 })
 
 
+
 gsap.from('.fleche', 5.5, {
     y: '40%',
     opacity: 0,
     ease: Expo.easeInOut,
-    delay: 1.4,
+    delay: 1.6,
 })
 
 
