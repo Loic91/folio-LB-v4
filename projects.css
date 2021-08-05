@@ -33,9 +33,11 @@ html, body{
 }
 @media screen and (max-width: 899px){
     .section{
-        height: 35vh;
+        height: 50vh;
     }
-    
+    .section_footer{
+        height: 100vh;
+    }
 }
 @media screen and (max-width: 599px){
     .section{
@@ -843,6 +845,17 @@ svg{
     margin-top: -70px;
   }
 
+  @media screen and (max-width: 899px){
+    .marquee{
+        font-size: 120px;
+    }
+    .marquee.left span{
+        margin-top: 0px;
+    }
+    .marquee.right span{
+        margin-top: -40px;
+    }
+  }
   @media screen and (max-width: 600px){
     .marquee{
         font-size: 60px;
@@ -892,13 +905,42 @@ svg{
     font-size: 2em;
 }
 .twitter{
+    font-family: 'Rubik', sans-serif;
     font-size: 2em;
 }
 .dribbble{
+    font-family: 'Rubik', sans-serif;
     font-size: 2em;
 }
 
 
+@media screen and (max-width: 899px){
+    #title__h3{
+        font-size: 4em;
+    }
+    .contact_title{
+        height: 172px;
+    }
+
+    .contact_text p{
+        font-size: 1em;
+        width: 450px;
+        padding-top: 200px;
+    }
+
+    .reseaux{
+        margin-right: 10px;
+    }
+    .contact_email{
+        font-size: 1.5em;
+    }
+    .twitter{
+        font-size: 1.5em;
+    }
+    .dribbble{
+        font-size: 1.5em;
+    }
+}
 @media screen and (max-width: 600px){
     #title__h3{
         font-size: 2.5em;
