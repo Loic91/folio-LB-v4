@@ -891,6 +891,29 @@ ScrollTrigger.create({
 
 
 
+ScrollTrigger.create({
+    trigger: '#title__h3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('#title__h3', 2.5, {
+                y: '100%',
+                // opacity: 0,
+                // ease: Expo.easeInOut,
+                delay: 0.5,
+    }),
+    // markers: true
+})
+
+
+
+
+
+
+
 
 
 
