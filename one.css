@@ -10,8 +10,23 @@
 }
 
 body{
-    background-color: salmon;
+    background-color: #fc8282a8;
 }
+
+/* ************************************************* */
+/* CACHER LA SCROLLBAR POUR Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+/* CACHER LA SCROLLBAR POUR IE, Edge ET Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* ************************************************ */
+
+
+
 
 .overlay__one{
     position: absolute;
@@ -30,6 +45,92 @@ body{
     width: 100%;
 }
 /* ************ */
+
+.cross i{
+    color: rgb(245, 225, 225);
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-left: -50px;
+    transition: 1.3s;
+}
+.cross i:hover{
+    color: rgb(235, 206, 206);
+    opacity: 1;
+}
+
+
+
+/* .circle {
+    fill: transparent;
+    stroke: #ffffff;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+}
+.circle.progress {
+    transform: rotate(-90deg);
+    transform-origin: center;
+    stroke-width: 10px;
+    transition: stroke-dashoffset 2s;
+    stroke-dashoffset: 440;
+}
+.circle.background {
+    stroke: #ccc;
+    stroke-width: 10px;
+}
+.circle.animate {
+    -webkit-animation: circle-animation ease 2s;
+            animation: circle-animation ease 2s;
+}
+.tick-cross {
+    stroke: #ffffff;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    fill: transparent;
+    stroke-linejoin: round;
+    stroke-dasharray: 143;
+    -webkit-animation: tick-animation ease 2s infinite;
+            animation: tick-animation ease 2s infinite;
+}
+  
+@-webkit-keyframes circle-animation {
+    0% {
+      stroke-dashoffset: 440;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+}
+  
+@keyframes circle-animation {
+    0% {
+      stroke-dashoffset: 440;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+}
+@-webkit-keyframes tick-animation {
+    0% {
+      stroke-dashoffset: 140;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+}
+@keyframes tick-animation {
+    0% {
+      stroke-dashoffset: 140;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+} */
+
+
+
+
+
 
 
 

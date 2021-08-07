@@ -13,3 +13,14 @@ gsap.from('#title__h1', 1.9, {
     y: '100%',
     delay: 2.5
 })
+
+gsap.to('i', 0.9, {
+    x: '200%',
+    delay: 2.5
+})
+
+gsap.from('video', 1.9, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 2.5,
+})
