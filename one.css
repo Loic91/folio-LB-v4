@@ -3,6 +3,9 @@
     src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
 
 *{
     margin: 0;
@@ -81,10 +84,10 @@ body {
 @media screen and (max-width: 600px){
     #title__h1{
         margin-top: 130px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .title{
-        height: 165px;
+        height: 161px;
     }
 }
 
@@ -101,6 +104,7 @@ video{
 
 figcaption{
     color: white;
+    font-family: 'Rubik', sans-serif;
 }
 
 @media screen and (max-width: 600px){
