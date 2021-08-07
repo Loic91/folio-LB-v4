@@ -80,11 +80,11 @@ body {
 
 @media screen and (max-width: 600px){
     #title__h1{
-        margin-top: 230px;
+        margin-top: 130px;
         font-size: 1.1em;
     }
     .title{
-        height: 265px;
+        height: 165px;
     }
 }
 
@@ -105,7 +105,7 @@ figcaption{
 
 @media screen and (max-width: 600px){
     .presentation{
-        padding-top: 300px;
+        padding-top: 200px;
     }
     video{
         width: 350px;
