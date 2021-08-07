@@ -24,3 +24,9 @@ gsap.from('video', 1.9, {
     ease: Expo.easeInOut,
     delay: 2.5,
 })
+
+gsap.from('figcaption', 1.9, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 2.9,
+})
