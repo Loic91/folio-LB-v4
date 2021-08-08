@@ -110,8 +110,9 @@
         cursor: pointer;
         z-index: 300;
     }
-    .fa-play{
-        font-size: 7em;
+    /* .fa-play{ */
+    .fa-play-circle{
+        font-size: 9em;
     }
 
     /*** handling errors ***/
