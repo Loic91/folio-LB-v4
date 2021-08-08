@@ -107,7 +107,8 @@ body {
 }
 
 .video{
-    width: 350px;
+    max-width: 450px;
+    height: 100%;
 }
 
 figcaption{
@@ -120,7 +121,8 @@ figcaption{
         padding-top: 200px;
     }
     .video{
-        width: 350px;
+        max-width: 360px;
+        height: 100%;
     }
 }
 
