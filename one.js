@@ -34,7 +34,7 @@ gsap.from('figcaption', 1.9, {
 
 
 
-gsap.from('.fa-play-circle', 1.9, {
+gsap.from('.button', 1.9, {
     opacity: 0,
     ease: Expo.easeInOut,
     delay: 1.2,

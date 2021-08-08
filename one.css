@@ -130,3 +130,60 @@ figcaption{
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* BOUTON PLAY */
+.round-button--large {
+    width: 92px;
+    height: 92px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 24px;
+    background: transparent;
+    border: none;
+    margin: 0;
+    margin-right: 4rem;
+    padding: 0;
+    cursor: pointer;
+    outline: 0;
+    transition: all 500ms ease-in;
+    transform: scale(1);
+    font-family: inherit;
+    box-shadow: none;
+  }
+  @media screen and (max-width: 600px) {
+    .round-button--large {
+      margin-right: 2rem;
+    }
+  }
+  .round-button--large .round-button--icon {
+    fill: rgb(255, 255, 255);
+  }
+  .round-button--large .round-button-play {
+    display: inline-block;
+  }
+  .round-button--large:focus {
+    transition: all 50ms ease-in;
+    transform: scale(1.1);
+  }
+  .round-button--large:hover {
+    transition: all 500ms ease;
+    transform: scale(1.25);
+  }
+  .round-button--large:last-child {
+    margin-right: 0;
+  }
+
+  
+  
+  
