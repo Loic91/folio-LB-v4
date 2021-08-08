@@ -14,7 +14,7 @@ gsap.from('#title__h1', 1.9, {
     delay: 2.5
 })
 
-gsap.to('i', 0.9, {
+gsap.to('.fa-times-circle', 0.9, {
     x: '200%',
     delay: 2.5
 })
@@ -29,4 +29,13 @@ gsap.from('figcaption', 1.9, {
     opacity: 0,
     ease: Expo.easeInOut,
     delay: 2.9,
+})
+
+
+
+
+gsap.from('.fa-play', 1.9, {
+    opacity: 0,
+    ease: Expo.easeInOut,
+    delay: 1.2,
 })
