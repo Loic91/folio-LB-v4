@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: #ca292971;
+    background-color: #ca2929;
     z-index: -100;
 }
 
@@ -120,7 +120,7 @@ figcaption{
         padding-top: 200px;
     }
     .video{
-        width: 300px;
+        width: 350px;
     }
 }
 
