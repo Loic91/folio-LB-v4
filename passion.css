@@ -412,10 +412,14 @@ main {
 	padding: 3rem;
 	margin: 0;
 	line-height: 0.8;
-
-	margin-top: -150px;
 }
 
+@media screen and (max-width: 600px){
+	.tiles__title{
+		margin-top: -130px;
+		padding: 20px;
+	}
+}
 
 
 
