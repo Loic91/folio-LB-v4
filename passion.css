@@ -408,7 +408,7 @@ main {
 	/* display: flex; */
 	justify-content: center;
 	align-items: center;
-	font-size: 10vw;
+	font-size: 9vw;
 	padding: 3rem;
 	margin: 0;
 	line-height: 0.8;
@@ -481,12 +481,12 @@ main {
 	.title_passion{
 		margin-top: 250px;
 		padding-top: 10px;
-		height: 51px;
+		height: 46px;
 	}
 	.title_passion2{
 		margin-top: 10px;
 		padding-top: 10px;
-		height: 51px;
+		height: 46px;
 	}
 }
 
@@ -496,7 +496,7 @@ main {
 
 
 @media screen and (min-width: 53em) {
-	.frame {
+	/* .frame {
 		display: grid;
 		align-content: space-between;
 		width: 100%;
@@ -517,7 +517,7 @@ main {
 		grid-area: links;
 		padding: 0;
 		justify-self: end;
-	}
+	} */
 	.tiles--columns-rotated .tiles__line {
 		width: 33vmax;
 	}
