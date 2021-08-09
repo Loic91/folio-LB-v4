@@ -109,6 +109,8 @@
         text-align: center;
         cursor: pointer;
         z-index: 300;
+
+        position: relative;
     }
     
     /* .fa-play-circle{
