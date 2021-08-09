@@ -27,28 +27,23 @@ gsap.from('#enter-site', 2.9, {
 
 
 
-gsap.from('.one', 0.9, {
+gsap.from('.one', 3.9, {
     opacity: 0,
-    ease: Expo.easeInOut,
     delay: 0.3,
 })
-gsap.from('.two', 0.9, {
+gsap.from('.two', 3.9, {
     opacity: 0,
-    ease: Expo.easeInOut,
     delay: 0.5,
 })
-gsap.from('.three', 0.9, {
+gsap.from('.three', 3.9, {
     opacity: 0,
-    ease: Expo.easeInOut,
     delay: 0.7,
 })
-gsap.from('.four', 0.9, {
+gsap.from('.four', 3.9, {
     opacity: 0,
-    ease: Expo.easeInOut,
     delay: 0.9,
 })
-gsap.from('.five', 0.9, {
+gsap.from('.five', 3.9, {
     opacity: 0,
-    ease: Expo.easeInOut,
     delay: 1.1,
 })
