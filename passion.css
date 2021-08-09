@@ -480,11 +480,13 @@ main {
 	
 	.title_passion{
 		margin-top: 250px;
-		height: 41px;
+		padding-top: 10px;
+		height: 51px;
 	}
 	.title_passion2{
 		margin-top: 10px;
-		height: 41px;
+		padding-top: 10px;
+		height: 51px;
 	}
 }
 
