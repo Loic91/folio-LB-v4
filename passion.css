@@ -635,7 +635,7 @@ figcaption{
     }
   }
   .round-button--large .round-button--icon {
-    fill: rgb(255, 255, 255);
+    fill: rgb(0, 0, 0);
   }
   .round-button--large .round-button-play {
     display: inline-block;
@@ -655,5 +655,5 @@ figcaption{
 
 	.laptop_presentation{
 		position: relative;
-		margin-top: 500px;
+		margin-top: 300px;
 	}
