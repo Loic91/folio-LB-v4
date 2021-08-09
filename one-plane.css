@@ -110,7 +110,7 @@
         cursor: pointer;
         z-index: 300;
 
-        position: relative;
+        position: absolute;
     }
     
     /* .fa-play-circle{
