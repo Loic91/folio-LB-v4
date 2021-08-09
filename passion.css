@@ -409,12 +409,11 @@ main {
 	justify-content: center;
 	align-items: center;
 	font-size: 9vw;
-	padding: 3rem;
+	/* padding: 3rem; */
 	margin: 0;
 	line-height: 0.8;
-	font-family: span, serif;
-	font-weight: 700;
-	font-style: normal;
+
+	margin-top: -20px;
 }
 
 
@@ -480,13 +479,13 @@ main {
 	
 	.title_passion{
 		margin-top: 250px;
-		padding-top: 10px;
-		height: 46px;
+		padding-top: 2px;
+		height: 39px;
 	}
 	.title_passion2{
 		margin-top: 10px;
-		padding-top: 10px;
-		height: 46px;
+		padding-top: 2px;
+		height: 39px;
 	}
 }
 
@@ -582,7 +581,7 @@ figcaption{
         display: none;
     }
     .presentation{
-        margin-top: 500px;
+        margin-top: 300px;
 		text-align: center;
 		
     }
