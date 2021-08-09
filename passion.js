@@ -14,6 +14,13 @@ gsap.from('.video', 2.5, {
     delay: 2.9,
 })
 
+gsap.from('.paragraphe', 2.5, {
+    opacity: 0,
+    y: '40%',
+    ease: Expo.easeInOut,
+    delay: 3.5,
+})
+
 
 
 gsap.from('.one', 0.9, {

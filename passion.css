@@ -8,11 +8,9 @@
 
 
 *{
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
-}
-
-body{
-    margin: 0;
 }
 
 :root {
@@ -482,28 +480,16 @@ main {
 	
 	.title_passion{
 		margin-top: 250px;
-		height: 88px;
+		height: 41px;
 	}
 	.title_passion2{
-		margin-top: -40px;
-		height: 88px;
+		margin-top: 10px;
+		height: 41px;
 	}
 }
 
-.backtop {
-	align-self: center;
-	margin: auto 0;
-	font-size: 6vw;
-	cursor: pointer;
-	text-decoration: none;
-}
 
-.backtop::after {
-	content: "\2934";
-	font-size: 3vw;
-	vertical-align: top;
-	margin-left: 1rem;
-}
+
 
 
 
@@ -574,7 +560,7 @@ main {
 
 /* VIDEO***************************************************************************************************************************************************************************************************************************************** */
 .presentation{
-    text-align: center;
+    /* text-align: center; */
     /* padding-top: 150px; */
 }
 
@@ -596,14 +582,17 @@ figcaption{
     .presentation{
         margin-top: 500px;
 		text-align: center;
+		
     }
 
     .video{
         max-width: 350px;
         height: 100%;
-		text-align: center;
-		
     }
+
+	.presentation p{
+		position: relative;
+	}
 }
 
 
