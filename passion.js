@@ -14,6 +14,11 @@ gsap.from('.presentation__laptop', 1.9, {
     y: '100%',
     delay: 2.7
 })
+gsap.from('.presentation__mobile', 1.9, {
+    opacity: 0,
+    y: '100%',
+    delay: 2.7
+})
 gsap.from('.video', 2.5, {
     opacity: 0,
     y: '40%',
