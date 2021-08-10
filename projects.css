@@ -420,13 +420,14 @@ svg{
 /* PROJETS ************************************************************************************* */
 
 .title{
-    color: #ca2929;
+    /* color: #ca2929; */
     display: flex;
     justify-content: center;
     margin-top: 100px;
     z-index: 350;
 }
 .t1{
+    color: #ca2929;
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
@@ -441,7 +442,7 @@ svg{
 }
 
 .t2{
-    /* margin-top: 300px; */
+    color: #ca2929;
     display: flex;
     margin-left: 20px;
 }
