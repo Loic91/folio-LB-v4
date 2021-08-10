@@ -552,8 +552,8 @@ figcaption{
 
 @media screen and (min-width: 1350px){
 	.presentation__laptop{
-		margin-left: 400px;
-		margin-right: 400px;
+		margin-left: 300px;
+		margin-right: 300px;
 	}
 }
 @media screen and (max-width: 1349px){
