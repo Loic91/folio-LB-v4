@@ -17,7 +17,7 @@ gsap.from('.video', 2.5, {
 })
 
 gsap.from('#enter-site', 2.9, {
-    // opacity: 0,
+    opacity: 0,
     y: '100%',
     // ease: Expo.easeInOut,
     delay: 2.9,
