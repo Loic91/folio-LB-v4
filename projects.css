@@ -429,6 +429,7 @@ svg{
 .t1{
     color: #ca2929;
     display: flex;
+    text-decoration: none;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
     font-family: "GRIFTER"; 
@@ -445,6 +446,7 @@ svg{
     color: #ca2929;
     display: flex;
     margin-left: 20px;
+    text-decoration: none;
 }
 .word-one-2, .word-two-2, .word-three-2, .word-four-2, .word-five-2, .word-six-2, .word-seven-2, .word-eight-2{
     font-family: "GRIFTER"; 
