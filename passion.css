@@ -552,20 +552,20 @@ figcaption{
 
 @media screen and (min-width: 1350px){
 	.presentation__laptop{
-		margin-left: 300px;
-		margin-right: 300px;
+		margin-left: 400px;
+		margin-right: 400px;
 	}
 }
 @media screen and (min-width: 1150px){
 	.presentation__laptop{
-		margin-left: 200px;
-		margin-right: 200px;
+		margin-left: 300px;
+		margin-right: 300px;
 	}
 }
 @media screen and (max-width: 1149px){
 	.presentation__laptop{
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 100px;
+		margin-right: 100px;
 	}
 }
 @media screen and (max-width: 899px){
