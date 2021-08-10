@@ -572,6 +572,7 @@ figcaption{
 	.presentation__laptop{
 		margin-left: 5px;
 		margin-right: 5px;
+		padding: 20px;
 	}
 	/* .laptop_presentation{
         display: none;
@@ -589,7 +590,7 @@ figcaption{
     }
 
     .video{
-        max-width: 310px;
+        max-width: 370px;
         height: 100%;
     }
 
