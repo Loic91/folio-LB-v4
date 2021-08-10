@@ -2,7 +2,7 @@
 TweenMax.to(".overlay__one", 3.8, {
     delay: 0.1,
     opacity: 0,
-    top: "-200%",
+    top: "-300%",
     ease: Expo.easeInOut
 });
 
