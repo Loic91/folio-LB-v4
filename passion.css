@@ -106,47 +106,6 @@ main {
 
 
 
-
-
-
-
-
-/* .frame {
-	text-align: center;
-	position: relative;
-	z-index: 900;
-}
-
-.frame__author {
-	text-decoration: none;
-	color: var(--color-alt);
-}
-
-.frame__title {
-	font-size: 1rem;
-	margin: 0 0 1rem;
-	font-weight: normal;
-}
-
-.frame__links {
-	display: inline;
-}
-
-.frame__links a:not(:last-child),
-.frame__demos a:not(:last-child) {
-	margin-right: 1rem;
-}
-
-.frame__demos {
-	margin: 1rem 0;
-}
-
-.frame__demo--current,
-.frame__demo--current:hover {
-	text-decoration: none;
-	color: var(--color-alt);
-} */
-
 .content {
 	padding: 3rem;
 	min-height: 90vh;
@@ -499,28 +458,6 @@ main {
 
 
 @media screen and (min-width: 53em) {
-	/* .frame {
-		display: grid;
-		align-content: space-between;
-		width: 100%;
-		grid-gap: 5vw;
-		grid-template-columns: auto auto auto 1fr;
-		grid-template-areas: 'title title links demos';
-	}
-	.frame__title {
-		margin: 0;
-		grid-area: title;
-	}
-	.frame__demos {
-		margin: 0;
-		grid-area: demos;
-		justify-self: end;
-	}
-	.frame__links {
-		grid-area: links;
-		padding: 0;
-		justify-self: end;
-	} */
 	.tiles--columns-rotated .tiles__line {
 		width: 33vmax;
 	}
@@ -578,9 +515,9 @@ figcaption{
 }
 
 @media screen and (max-width: 600px){
-	.laptop_presentation{
+	/* .laptop_presentation{
         display: none;
-    }
+    } */
     .presentation{
         margin-top: 70px;
 		text-align: center;
@@ -598,11 +535,11 @@ figcaption{
 }
 
 
-@media screen and (min-width: 601px){
+/* @media screen and (min-width: 601px){
     .presentation{
         display: none;
     }
-}
+} */
 
 
 
@@ -610,7 +547,7 @@ figcaption{
 
 
 /* BOUTON PLAY */
-.round-button--large {
+/* .round-button--large {
     width: 92px;
     height: 92px;
     display: inline-block;
@@ -656,4 +593,4 @@ figcaption{
 	.laptop_presentation{
 		position: relative;
 		margin-top: 300px;
-	}
+	} */
