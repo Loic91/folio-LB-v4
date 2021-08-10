@@ -9,10 +9,15 @@ gsap.from('#title__h1-2', 1.9, {
     delay: 2.5
 })
 
+gsap.from('.presentation', 1.9, {
+    opacity: 0,
+    y: '100%',
+    delay: 2.7
+})
 gsap.from('.video', 2.5, {
     opacity: 0,
     y: '40%',
-    ease: Expo.easeInOut,
+    // ease: Expo.easeInOut,
     delay: 2.9,
 })
 
