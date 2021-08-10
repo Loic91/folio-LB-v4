@@ -1,3 +1,9 @@
+gsap.from('.navbar', 2.5, {
+    opacity: 0,
+    y: '-40%',
+    delay: 2.7,
+})
+
 gsap.from('#title__h1', 1.9, {
     opacity: 0,
     y: '100%',
@@ -22,7 +28,6 @@ gsap.from('.presentation__laptop', 1.9, {
 gsap.from('.video', 2.5, {
     opacity: 0,
     y: '40%',
-    // ease: Expo.easeInOut,
     delay: 2.9,
 })
 
