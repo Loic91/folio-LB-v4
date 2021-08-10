@@ -540,13 +540,45 @@ figcaption{
     font-family: 'Rubik', sans-serif;
 }
 
+@media screen and (min-width: 1350px){
+	.presentation__laptop{
+		margin-left: 300px;
+		margin-right: 300px;
+	}
+}
+@media screen and (min-width: 1150px){
+	.presentation__laptop{
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+}
+@media screen and (max-width: 1149px){
+	.presentation__laptop{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width: 799px){
+	.presentation__laptop{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.video{
+		max-width: 650px;
+		height: 100%;
+	}
+}
 @media screen and (max-width: 600px){
+	.presentation__laptop{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
 	/* .laptop_presentation{
         display: none;
     } */
-	.presentation__laptop{
+	/* .presentation__laptop{
         display: none;
-    }
+    } */
     .presentation__mobile{
         margin-top: 70px;
 		text-align: center;	
@@ -557,7 +589,7 @@ figcaption{
     }
 
     .video{
-        max-width: 350px;
+        max-width: 310px;
         height: 100%;
     }
 
