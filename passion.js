@@ -9,7 +9,7 @@ gsap.from('#title__h1-2', 1.9, {
     delay: 2.5
 })
 
-gsap.from('.presentation', 1.9, {
+gsap.from('.presentation__laptop', 1.9, {
     opacity: 0,
     y: '100%',
     delay: 2.7

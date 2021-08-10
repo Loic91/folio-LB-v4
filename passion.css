@@ -501,7 +501,7 @@ main {
 
 
 /* VIDEO***************************************************************************************************************************************************************************************************************************************** */
-.presentation{
+.presentation__laptop{
 	text-align: center;
 	margin-top: 500px;
 
@@ -524,10 +524,13 @@ figcaption{
 	/* .laptop_presentation{
         display: none;
     } */
-    .presentation{
+	.presentation__laptop{
+        display: none;
+    }
+    .presentation__mobile{
         margin-top: 70px;
-		text-align: center;
-		
+		text-align: center;	
+		/* background-color: blue; */
     }
 
     .video{
@@ -535,17 +538,17 @@ figcaption{
         height: 100%;
     }
 
-	.presentation p{
+	/* .presentation p{
 		position: relative;
-	}
+	} */
 }
 
 
-/* @media screen and (min-width: 601px){
-    .presentation{
+@media screen and (min-width: 601px){
+    .presentation__mobile{
         display: none;
     }
-} */
+}
 
 
 
