@@ -525,7 +525,6 @@ svg{
 
 /* projet 2 *************************************************** */
 .title_2{
-    color: #ca2929;
     display: flex;
     justify-content: center;
     /* margin-top: -250px; */
@@ -536,7 +535,7 @@ svg{
 }
 
 .t3{
-    /* padding-top: 400px; */
+    color: #ca2929;
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
