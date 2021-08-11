@@ -393,7 +393,11 @@ main {
     margin-top: 0px;
 	line-height: 0.8;
 }
-
+@media screen and (max-width: 899px){
+	.tiles__title{
+		margin-top: -40px;
+	}
+}
 @media screen and (max-width: 600px){
 	.tiles__title{
 		margin-top: -200px;
@@ -578,7 +582,7 @@ figcaption{
         display: none;
     }
 	.presentation__mobile{
-        margin-top: 100px;
+        margin-top: 200px;
 		text-align: center;
     }
 	.video{
