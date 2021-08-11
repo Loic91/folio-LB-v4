@@ -565,7 +565,6 @@ svg{
 
 /* projet 3 *************************************************** */
 .title_3{
-    color: #ca2929;
     display: flex;
     justify-content: center;
     /* margin-top: -270px; */
@@ -576,6 +575,7 @@ svg{
 }
 
 .t4{
+    color: #ca2929;
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
@@ -607,7 +607,6 @@ svg{
 /* ************************************************************ */
 /* projet 4 *************************************************** */
 .title_4{
-    color: #ca2929;
     display: flex;
     justify-content: center;
     /* margin-top: -150px; */
@@ -618,6 +617,7 @@ svg{
 }
 
 .t5{
+    color: #ca2929;
     display: flex;
 }
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
