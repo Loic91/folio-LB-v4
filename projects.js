@@ -1,3 +1,11 @@
+// OVERLAY
+TweenMax.to(".overlay__one", 3.8, {
+    delay: 0.1,
+    opacity: 0,
+    top: "-300%",
+    ease: Expo.easeInOut
+});
+
 // NAVBAR *******************************************************
 gsap.from('.name_one', 1.9, {
     y: '100%',
