@@ -531,6 +531,10 @@ svg{
     /* margin-top: -250px; */
     z-index: 350;
 }
+.title_2 a{
+    text-decoration: none;
+}
+
 .t3{
     /* padding-top: 400px; */
     display: flex;
