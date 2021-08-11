@@ -571,6 +571,10 @@ svg{
     /* margin-top: -270px; */
     z-index: 350;
 }
+.title_3 a{
+    text-decoration: none;
+}
+
 .t4{
     display: flex;
 }
@@ -609,6 +613,10 @@ svg{
     /* margin-top: -150px; */
     z-index: 350;
 }
+.title_4 a{
+    text-decoration: none;
+}
+
 .t5{
     display: flex;
 }
