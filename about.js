@@ -319,7 +319,7 @@ TweenMax.to(".block_10__about__tab", 1.9, {
     delay: 0.9,
 });
 TweenMax.to(".block_10__about__mobile", 1.9, {
-    x: "60",
+    x: "65",
     // y: "390",
     y: "440",
     scale: "0.9",
