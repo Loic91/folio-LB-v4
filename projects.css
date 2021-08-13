@@ -48,10 +48,10 @@
     margin-top: 0px;
 }
 .section_footer{
-    height: 150vh;
+    height: 170vh;
 }
 @media screen and (min-width: 1390px){
-    .projet__2, .projet__3, .projet__4{
+    .projet__2, .projet__3, .projet__4, .projet__5{
         margin-top: 150px;
     }
 }
@@ -78,6 +78,9 @@
     }
     .projet__4{
         margin-top: 50px;
+    }
+    .projet__5{
+        margin-top: 100px;
     }
 }
 
@@ -469,7 +472,7 @@ svg{
 .t2{
     color: #ca2929;
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
     text-decoration: none;
 }
 .word-one-2, .word-two-2, .word-three-2, .word-four-2, .word-five-2, .word-six-2, .word-seven-2, .word-eight-2{
@@ -508,6 +511,7 @@ svg{
     }
     .t2{
         margin-top: -50px;
+        margin-left: 10px;
     }
     .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
         font-size: 1.4em;
@@ -574,10 +578,14 @@ svg{
     text-decoration: none;
 }
 
-.t4{
+.t4, .t4_1{
     color: #ca2929;
     display: flex;
 }
+.t4_1{
+    margin-left: 30px;
+}
+
 .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
     font-family: "GRIFTER"; 
     font-weight: lighter;
@@ -591,9 +599,13 @@ svg{
 }
 
 @media screen and (max-width: 599px){
-    .t4{
+    .t4, .t4_1{
         margin-top: 100px;
     }
+    .t4_1{
+        margin-left: 10px;
+    }
+    
     .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
         font-size: 1.4em;
     }
@@ -681,6 +693,9 @@ svg{
 @media screen and (max-width: 599px){
     .t6, .t7{
         margin-top: 160px;
+    }
+    .t7{
+        margin-left: 10px;
     }
     .word-one, .word-two, .word-three, .word-four, .word-five, .word-six, .word-seven{
         font-size: 1.4em;
@@ -945,7 +960,7 @@ svg{
         width: 90%;
     }
     .img__5 div{
-        height: 29.3vw
+        height: 28.5vw
     }
     .img__5 article{
         grid-gap: 5px;
