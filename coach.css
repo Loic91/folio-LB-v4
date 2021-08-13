@@ -412,12 +412,15 @@ main {
     font-family: "GRIFTER";
 	text-align: center;
 }
-.title_luxy{
+.title_coach{
     /* position: absolute; */
     overflow: hidden;
     width: 100%;
     height: 300px;
 	margin-top: 50px;
+}
+.roy{
+    margin-left: 30px;
 }
 
 /* #title__h1-2{
@@ -462,7 +465,7 @@ main {
 }
 
 @media screen and (max-width: 899px){
-	.title_luxy{
+	.title_coach{
 		padding-top: 15px;
 	}
 	/* .title_passion2{
@@ -475,7 +478,7 @@ main {
 		margin-top: 30px;
 	} */
 	
-	.title_luxy{
+	.title_coach{
 		margin-top: 250px;
 		padding-top: 10px;
 		height: 40px;
