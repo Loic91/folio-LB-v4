@@ -558,6 +558,120 @@ ScrollTrigger.create({
     }),
     // markers: true
 })
+// *********************************************
+
+ScrollTrigger.create({
+    trigger: '.coa_1',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coa_1', 1, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coa_2',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coa_2', 1.3, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coa_3',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coa_3', 1.6, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coa_4',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coa_4', 1.9, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coa_5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coa_5', 2.2, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coa_6',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coa_6', 2.5, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.coa_7',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.coa_7', 2.8, {
+                // y: '100%',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.9,
+    }),
+    // markers: true
+})
 
 
 
@@ -882,6 +996,87 @@ ScrollTrigger.create({
     }),
     // markers: true
 })
+
+
+
+
+ScrollTrigger.create({
+    trigger: '.one__5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.one__5', 1.6, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 0.5,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.two__5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.two__5', 2, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 1,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.three__5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.three__5', 2.4, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 1.5,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.four__5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.four__5', 2.8, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 2,
+    }),
+    // markers: true
+})
+ScrollTrigger.create({
+    trigger: '.five__5',
+    scroller: '.smooth-scroll',
+
+    start: "top bottom",
+    end: "top top",
+    // start: 'top+=-20% 80%',
+    // end: 'bottom-=40% 50%',
+    animation: gsap.from('.five__5', 3.2, {
+                opacity: 0,
+                ease: Expo.easeInOut,
+                delay: 2.5,
+    }),
+    // markers: true
+})
+
+
 
 
 
