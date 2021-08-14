@@ -2,6 +2,7 @@
     font-family: "GRIFTER"; 
     src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 
 
@@ -337,6 +338,10 @@ svg:nth-child(1){
 
 
  /* TEXTE *************************************************************************************************************************************************************************************************************************************************************************************************** */
+.text__bio a{
+    text-decoration: none;
+    color: rgb(207, 110, 110);
+}
 
 @media screen and (min-width: 1150px){
     .flex__about{
@@ -344,10 +349,13 @@ svg:nth-child(1){
     }
 
     .text__bio{
+        font-family: 'Rubik', sans-serif;
+        color: #5e0a0a;
+        text-transform: uppercase;
         width: 600px;
         margin-left: auto;
-        margin-top: 250px;
-        font-size: 1.7em;
+        margin-top: 220px;
+        font-size: 1.4em;
     }
 }
 
@@ -358,30 +366,39 @@ svg:nth-child(1){
     }
 
     .text__bio{
+        font-family: 'Rubik', sans-serif;
+        color: #5e0a0a;
+        text-transform: uppercase;
         width: 400px;
         margin-left: auto;
         margin-top: 250px;
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
 }
 
 
 @media screen and (max-width: 899px) and (min-width: 601px){
     .text__bio{
+        font-family: 'Rubik', sans-serif;
+        color: #5e0a0a;
+        text-transform: uppercase;
         width: 500px;
         margin-left: 20px;
         margin-top: 150px;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 }
 
 @media screen and (max-width: 600px){
     .text__bio{
+        font-family: 'Rubik', sans-serif;
+        color: #5e0a0a;
+        text-transform: uppercase;
         width: 300px;
         margin-left: 20px;
         margin-top: 30px;
         /* margin-top: -30px; */
-        font-size: 1.1em;
+        font-size: 0.8em;
     }
 }
 
