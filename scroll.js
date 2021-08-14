@@ -1112,7 +1112,7 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.contact_text', 2.5, {
-                y: '10%',
+                y: '20%',
                 opacity: 0,
                 // ease: Expo.easeInOut,
                 delay: 0.8,
@@ -1129,7 +1129,7 @@ ScrollTrigger.create({
     // start: 'top+=-20% 80%',
     // end: 'bottom-=40% 50%',
     animation: gsap.from('.reseaux', 2.5, {
-                y: '10%',
+                y: '20%',
                 opacity: 0,
                 // ease: Expo.easeInOut,
                 delay: 0.8,
