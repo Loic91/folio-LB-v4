@@ -1103,6 +1103,7 @@ svg{
 
 .contact_text p{
     font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
     font-size: 1.5em;
     color: black;
     width: 700px;
@@ -1138,6 +1139,7 @@ svg{
     }
 
     .contact_text p{
+        text-transform: uppercase;
         font-size: 1em;
         width: 450px;
         padding-top: 200px;
@@ -1165,6 +1167,7 @@ svg{
     }
 
     .contact_text p{
+        text-transform: uppercase;
         font-size: 1em;
         width: 300px;
         margin-left: auto;
