@@ -594,7 +594,7 @@ figcaption{
         display: none;
     } */
     .presentation__mobile{
-        margin-top: 40px;
+        margin-top: 0px;
 		text-align: center;
     }
 
