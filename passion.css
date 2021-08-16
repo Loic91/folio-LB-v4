@@ -395,7 +395,7 @@ main {
 
 @media screen and (max-width: 600px){
 	.tiles__title{
-		margin-top: -90px;
+		margin-top: -60px;
 		padding: 20px;
 	}
 }
