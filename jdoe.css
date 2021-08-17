@@ -3,9 +3,6 @@
     src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
-
 
 *{
 	margin: 0;
@@ -252,7 +249,7 @@ main {
 }
 
 .tiles--rotated .tiles__wrap {
-	--tileswrap-height: calc(var(--tiles-height) * 1.8);
+	/* --tileswrap-height: calc(var(--tiles-height) * 1.8); */
 	transform: translate3d(-50%,-50%, 0) rotate(22.5deg);
 }
 
@@ -269,7 +266,7 @@ main {
 .tiles--columns .tiles__wrap {
 	width: 100%;
 	display: flex;
-	--tileswrap-height: calc(var(--tiles-height) * 1.4);
+	/* --tileswrap-height: calc(var(--tiles-height) * 1.4); */
 	transform: translate3d(0,-50%,0);
 	left: 0;
 	top: 50%;
@@ -316,8 +313,8 @@ main {
 .tiles__line-img {
 	--tile-margin: 2vw;
 	flex: none;
-	width: calc(16.6666% - var(--tile-margin) * 2);
-	height: calc( var(--tileswrap-height) / 3 - (3 * var(--tile-margin) / 2));
+	/* width: calc(16.6666% - var(--tile-margin) * 2);
+	height: calc( var(--tileswrap-height) / 3 - (3 * var(--tile-margin) / 2)); */
 	margin: var(--tile-margin);
 	background-size: cover;
 	background-position: 50% 50%;
@@ -327,28 +324,28 @@ main {
 	backface-visibility: hidden;
 	outline: 1px solid transparent;
 	--tile-margin: 1vw;
-	width: calc(16.6666% - var(--tile-margin) * 2);
+	/* width: calc(16.6666% - var(--tile-margin) * 2); */
 	height: calc(16.666vw * 1.3);
 }
 
 .tiles--oneline .tiles__line-img {
 	--tile-margin: 1vw;
 	margin: 0 var(--tile-margin);
-	width: calc(25% - var(--tile-margin) * 2);
+	/* width: calc(25% - var(--tile-margin) * 2); */
 	height: 100%;
 }
 
 .tiles--small .tiles__line-img {
 	--tile-margin: 5px;
 	margin: 0 var(--tile-margin);
-	width: calc(12.5% - var(--tile-margin) * 2);
+	/* width: calc(12.5% - var(--tile-margin) * 2); */
 	height: 100%;
 }
 
 .tiles--rotated .tiles__line-img {
 	--tile-margin: 1vw;
-	width: calc(16.6666% - var(--tile-margin) * 2);
-	height: calc( var(--tileswrap-height) / 5 - (4 * var(--tile-margin) / 2));
+	/* width: calc(16.6666% - var(--tile-margin) * 2); */
+	/* height: calc( var(--tileswrap-height) / 5 - (4 * var(--tile-margin) / 2)); */
 }
 
 .tiles--columns-rotated .tiles__line-img {
@@ -366,8 +363,8 @@ main {
 .tiles--fixed .tiles__line-img {
 	--tile-margin: 10px;
 	-webkit-filter: brightness(0.8);
-	width: calc(16.6666% - var(--tile-margin) * 2);
-	height: calc( var(--tileswrap-height) / 3 - (3 * var(--tile-margin) / 2));
+	/* width: calc(16.6666% - var(--tile-margin) * 2); */
+	/* height: calc( var(--tileswrap-height) / 3 - (3 * var(--tile-margin) / 2)); */
 }
 
 
