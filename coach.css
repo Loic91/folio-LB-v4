@@ -345,7 +345,7 @@ main {
 .tiles--rotated .tiles__line-img {
 	--tile-margin: 1vw;
 	/* width: calc(16.6666% - var(--tile-margin) * 2); */
-	height: calc( var(--tileswrap-height) / 5 - (4 * var(--tile-margin) / 2));
+	/* height: calc( var(--tileswrap-height) / 5 - (4 * var(--tile-margin) / 2)); */
 }
 
 .tiles--columns-rotated .tiles__line-img {
