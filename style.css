@@ -1,7 +1,4 @@
-/* @font-face{
-    font-family: "Migha"; 
-    src: url('./fonts/Migha/Migha_Variable/Migha_Variable.ttf') format('truetype');
-} */
+
 @font-face{
     font-family: "Obrazec"; 
     src: url('./fonts/Obrazec/Obrazec-2.ttf') format('truetype');
@@ -14,9 +11,6 @@
     font-family: "GRIFTER"; 
     src: url('./FONTS/GRIFTER/GRIFTER™\ Bold.otf') format('opentype');
 }
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 
 * {
