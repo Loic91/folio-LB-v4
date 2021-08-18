@@ -610,7 +610,7 @@ let tl = new TimelineLite();
       1,
       {
         opacity: 1,
-        delay: 7.4,
+        delay: 6.7,
         ease: Sine.easeOut
       },
       0.2
@@ -625,8 +625,30 @@ let tl = new TimelineLite();
     );
 
 
-
-
+    gsap.from(".sides_one", {
+        y:80, 
+        stagger:0.05, 
+        opacity:0, 
+        delay: 7.2,
+        duration:3.5, 
+        ease:"power3.out"
+    })
+    gsap.from(".sides_two", {
+        y:80, 
+        stagger:0.05, 
+        opacity:0, 
+        delay: 7.4,
+        duration:3.5, 
+        ease:"power3.out"
+    })
+    gsap.from(".sides_three", {
+        y:80, 
+        stagger:0.05, 
+        opacity:0, 
+        delay: 7.6,
+        duration:3.5, 
+        ease:"power3.out"
+    })
 
 
 
