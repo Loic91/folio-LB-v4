@@ -505,22 +505,6 @@ p span:nth-child(1){
 }
 
 
-/* @media screen and (max-width: 768px){
-    .circle_shape{
-        display: none;
-    }
-}
-@media screen and (min-width: 769px){
-    .circle_shape__mobile{
-        display: none;
-    }
-    .blocks {
-        display: flex;
-        font-size: 140px;
-    }
-} */
-
-
 
 
 
@@ -923,7 +907,7 @@ p span:nth-child(1){
     margin-left: 50px;
     margin-bottom: 30px;
 }
-.footer .projects{
+.footer .about{
     position: absolute;
     bottom: 0;
     right: 0;

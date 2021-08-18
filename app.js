@@ -576,7 +576,7 @@ TweenMax.from(".switch", 2.6, {
     ease: Expo.easeInOut,
     delay: 3.9,
 });
-TweenMax.from(".projects", 2.6, {
+TweenMax.from(".about", 2.6, {
     opacity: 0,
     y: '80%',
     ease: Expo.easeInOut,
