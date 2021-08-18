@@ -594,23 +594,23 @@ TweenMax.from("#bodymovin", 2.6, {
 // ENVELOPPE
 TweenMax.from(".envelope", 2.6, {
     opacity: 0,
-    delay: 4.3,
+    delay: 7.3,
 });
 TweenMax.set("#top", {
     y: -100
   });
-  TweenMax.set(".sides", {
-    opacity: 0,
-  });
+// TweenMax.set(".sides", {
+//     opacity: 0,
+// });
   
-  let tl = new TimelineLite();
+let tl = new TimelineLite();
   tl
     .staggerTo(
       ".sides",
       1,
       {
         opacity: 1,
-        delay: 4.4,
+        delay: 7.4,
         ease: Sine.easeOut
       },
       0.2
