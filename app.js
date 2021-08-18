@@ -590,13 +590,39 @@ TweenMax.from("#bodymovin", 2.6, {
     delay: 4.3,
 });
 
-// TweenMax.from(".container-button", 2.6, {
-//     opacity: 0,
-//     y: '40%',
-//     ease: Expo.easeInOut,
-//     delay: 7.9,
-// });
 
+// ENVELOPPE
+TweenMax.from(".envelope", 2.6, {
+    opacity: 0,
+    delay: 4.3,
+});
+TweenMax.set("#top", {
+    y: -100
+  });
+  TweenMax.set(".sides", {
+    opacity: 0,
+  });
+  
+  let tl = new TimelineLite();
+  tl
+    .staggerTo(
+      ".sides",
+      1,
+      {
+        opacity: 1,
+        delay: 4.4,
+        ease: Sine.easeOut
+      },
+      0.2
+    )
+    .to(
+      "#top",
+      0.5,
+      {
+        y: 0
+      },
+      "-=0.7"
+    );
 
 
 
