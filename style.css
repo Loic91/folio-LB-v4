@@ -954,10 +954,10 @@ p span:nth-child(1){
 
     .envelope svg circle {
         fill: #312928;
-        stroke: #a09999;
-        stroke-width: 1;
-        stroke-dasharray: 700;
-        stroke-dashoffset: 700;
+        stroke: #ccc5c5;
+        stroke-width: 0.5;
+        /* stroke-dasharray: 700;
+        stroke-dashoffset: 700; */
           animation: 3s circle-stroke-out forwards alternate;
         transform-origin: 50% 50%;
       }
