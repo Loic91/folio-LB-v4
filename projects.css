@@ -1206,14 +1206,20 @@ svg{
 .contact_email{
     font-family: "GRIFTER";
     font-size: 2em;
+    color: #000000;
+    text-decoration: none;
 }
 .twitter{
     font-family: 'Rubik', sans-serif;
     font-size: 2em;
+    color: #000000;
+    text-decoration: none;
 }
 .dribbble{
     font-family: 'Rubik', sans-serif;
     font-size: 2em;
+    color: #000000;
+    text-decoration: none;
 }
 
 
