@@ -104,6 +104,11 @@
     font-weight: lighter;
     margin-top: 10px;
     color: rgb(0, 0, 0);
+
+    z-index: 550;
+}
+.name_one a{
+    text-decoration: none;
 }
 
 
