@@ -38,6 +38,12 @@ TweenMax.from("#bodymovin", 2.6, {
     delay: 4.3,
 });
 
+// ENVELOPPE
+TweenMax.from(".envelope", 2.6, {
+    opacity: 0,
+    delay: 5.8,
+});
+
 
 
 
