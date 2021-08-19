@@ -943,12 +943,12 @@ p span:nth-child(1){
         z-index: 450;
         left: 50%;
         transform: translate(-50%);
-        width: 50%;
+        /* width: 50%; */
         bottom: 0;
-        margin-top: 0px;
+        margin-bottom: 10px;
     }
 
-    svg circle {
+    .envelope svg circle {
         fill: #C45B4D;
         stroke: #A54538;
         stroke-width: 5;
@@ -957,16 +957,16 @@ p span:nth-child(1){
           animation: 3s circle-stroke-out forwards alternate;
         transform-origin: 50% 50%;
       }
-      svg:hover circle {
+      .envelope svg:hover circle {
         animation: 1s circle-stroke-in infinite alternate;
         opacity: 0.1;
       }
       
-      svg path{
+      .envelope svg path{
         animation: .5s path-scale-out forwards;
         transform-origin: 50% 50%;
       }
-      svg:hover path {
+      .envelope svg:hover path {
         animation: 0.5s path-scale-in forwards alternate;
       }
       
