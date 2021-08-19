@@ -1005,6 +1005,93 @@ svg{
     z-index: 950;
 }
 
+@media screen and (min-width: 901px){
+    .envelope{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+    /* ENVELOPPE */
+    .envelope svg {
+        position: absolute;
+        z-index: 450;
+        left: 50%;
+        transform: translate(-50%);
+        /* width: 50%; */
+        bottom: 0;
+        margin-bottom: 10px;
+    }
+
+    .envelope svg circle {
+        fill: #312928;
+        stroke: #ccc5c5;
+        stroke-width: 0.5;
+        /* stroke-dasharray: 700;
+        stroke-dashoffset: 700; */
+          animation: 3s circle-stroke-out forwards alternate;
+        transform-origin: 50% 50%;
+      }
+      .envelope svg:hover circle {
+        animation: 1s circle-stroke-in infinite alternate;
+        opacity: 0.1;
+      }
+      
+      .envelope svg path{
+        animation: .5s path-scale-out forwards;
+        transform-origin: 50% 50%;
+      }
+      .envelope svg:hover path {
+        animation: 0.5s path-scale-in forwards alternate;
+      }
+      
+      @keyframes circle-stroke-in {
+          from {
+          transform: rotate(0);
+          stroke-dashoffset: 700;
+          opacity: 0.3;
+        }
+        to {
+          transform: rotate(960deg);
+          stroke-dashoffset: 550;
+          opacity: 1;
+          stroke-width: 10;
+        }
+      }
+      @keyframes circle-stroke-out {
+          from {
+          transform: rotate(960deg);
+          stroke-dashoffset: 550;
+          opacity: 1;
+        }
+        to {
+          transform: rotate(0);
+          stroke-dashoffset: 700;
+          opacity: 0.3;
+        }
+      }
+      @keyframes path-scale-out {
+        from {
+          transform: scale(1.1);
+        }
+        to {
+          transform: scale(0.9);
+        }
+      }
+      @keyframes path-scale-in {
+         from {
+          transform: scale(0.9);
+        }
+        to {
+          transform: scale(1.1);
+        }
+      }
+      
+    /* ************* */
+}
+
+
+
+
 /* ********************************************************************************************************************************************************************************************** */
 
 @-webkit-keyframes marqueeAnimation {
